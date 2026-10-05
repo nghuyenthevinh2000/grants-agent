@@ -1,0 +1,111 @@
+{
+  "region": "MENA",
+  "name": "MENA Grant Funders & Discovery Channels",
+  "last_updated": "2026-10-05",
+  "total_funders": 3,
+  "funders": [
+    {
+      "id": "funder-kaust-fund",
+      "name": "King Abdullah University of Science and Technology (KAUST) Innovation",
+      "category_id": 6,
+      "category": "Academic Lab & Infrastructure Grants",
+      "hq_region": "MENA",
+      "eligible_regions": [
+        "MENA",
+        "GLOBAL"
+      ],
+      "homepage_url": "https://innovation.kaust.edu.sa",
+      "funding_portal_url": "https://innovation.kaust.edu.sa/entrepreneurs/funding/",
+      "discovery_channels": [
+        "https://innovation.kaust.edu.sa/entrepreneurs/funding/",
+        "https://ai.kaust.edu.sa"
+      ],
+      "focus_areas": [
+        "AI & Generative Models",
+        "Supercomputing",
+        "Robotics",
+        "Clean Energy Computing"
+      ],
+      "applicant_types": [
+        "academic",
+        "startup",
+        "researcher"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "KAUST Innovation Fund",
+        "Taqadam Accelerator",
+        "KAUST AI Initiative Grants"
+      ],
+      "agent_search_hints": "Taqadam Accelerator provides up to $140,000 non-dilutive funding, open internationally."
+    },
+    {
+      "id": "funder-dubai-future",
+      "name": "Dubai Future District Fund / Dubai Future Foundation",
+      "category_id": 4,
+      "category": "Non-Traditional Funding",
+      "hq_region": "MENA",
+      "eligible_regions": [
+        "MENA"
+      ],
+      "homepage_url": "https://www.dubaifuture.ae",
+      "funding_portal_url": "https://www.dubaifuture.ae/programs",
+      "discovery_channels": [
+        "https://www.dubaifuture.ae/programs",
+        "https://dubaifutureaccelerators.com"
+      ],
+      "focus_areas": [
+        "Frontier AI",
+        "Autonomous Mobility",
+        "Smart Cities",
+        "GovTech"
+      ],
+      "applicant_types": [
+        "startup",
+        "scaleup"
+      ],
+      "typical_award_type": "contract_grant",
+      "cycle_frequency": "quarterly",
+      "active_programs_sample": [
+        "Dubai Future Accelerators",
+        "Dubai AI Campus Grant Support"
+      ],
+      "agent_search_hints": "Dubai AI Campus provides licensing, compute subsidies, and pilot contracts."
+    },
+    {
+      "id": "funder-iia-israel",
+      "name": "Israel Innovation Authority (IIA)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "MENA",
+      "eligible_regions": [
+        "MENA"
+      ],
+      "homepage_url": "https://innovationisrael.org.il/en/",
+      "funding_portal_url": "https://innovationisrael.org.il/en/program/all",
+      "discovery_channels": [
+        "https://innovationisrael.org.il/en/program/all"
+      ],
+      "focus_areas": [
+        "Generative AI",
+        "Cybersecurity",
+        "Quantum Technologies",
+        "AgTech AI"
+      ],
+      "applicant_types": [
+        "startup",
+        "consortium",
+        "academic"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "National AI Program",
+        "Early Stage Grant",
+        "R&D Consortium Magnet Program"
+      ],
+      "agent_search_hints": "Check National AI Program for NLP, high-performance computing, and seed incubation."
+    }
+  ]
+}

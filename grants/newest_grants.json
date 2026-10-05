@@ -25,20 +25,27 @@
         "stage": [
           "all"
         ],
-        "team_size_min": 1,
+        "team_size_min": null,
         "team_size_max": null,
         "geography": [
-          "US"
+          "NORTH_AMERICA"
         ],
-        "restrictions": "Institutions of higher education and US non-profit research organizations",
-        "special_requirements": []
+        "restrictions": "Eligibility needs verification before document preparation. Previously recorded applicant types: institutions of higher education and US nonprofit research organizations; these have not been confirmed against the current solicitation. NORTH_AMERICA is a discovery region, not evidence that applicants throughout North America qualify.",
+        "special_requirements": [
+          "Screen applicant type/legal entity, eligible country, and any institution-level submission cap against the current official solicitation before proceeding to documents",
+          "Unknown: Current occupation/career-stage, age, degree/enrollment, institutional affiliation, and team-size criteria have not been verified; absent criteria must not be treated as an eligibility pass",
+          "Unknown: The previously recorded maximum of 4 proposals per institution is unverified and must not be used to approve or reject an applicant",
+          "Eligibility check order: Fail if a confirmed mandatory condition is not met; if a relevant condition is unknown, mark needs verification; proceed to requirements only after all applicable mandatory conditions are confirmed satisfied",
+          "Verification pending: https://new.nsf.gov/funding/opportunities/major-research-instrumentation-program-mri returned HTTP 403 during the source review"
+        ]
       },
       "requirements": {
         "application_effort": "high",
         "key_requirements": [
-          "Institutional nomination (max 4 proposals per institution)",
-          "Equipment and instrumentation specifications",
-          "Operations and maintenance plan"
+          "Unverified existing requirement: Institutional nomination; confirm required approval documents in the current solicitation after eligibility is verified",
+          "Unverified existing requirement: Equipment and instrumentation specifications; confirm required content and attachments in the current solicitation",
+          "Unverified existing requirement: Operations and maintenance plan; confirm required content and format in the current solicitation",
+          "Verification pending: The official program page returned HTTP 403 and the attempted NSF 23-519 legacy solicitation URL returned HTTP 404 during this review; document checklists, page limits, submission steps, application effort, and focus areas have not been independently verified"
         ],
         "focus_areas": [
           "Research instrumentation",
@@ -79,19 +86,39 @@
           "early-stage",
           "all"
         ],
-        "team_size_min": 1,
+        "team_size_min": null,
         "team_size_max": null,
         "geography": [
-          "Global"
+          "GLOBAL"
         ],
-        "restrictions": "Projects mitigating existential risks or aligning transformative AI",
-        "special_requirements": []
+        "restrictions": "Eligible recipients are established charities/nonprofits, projects with an established fiscal sponsor, or incorporated for-profit companies with a company bank account. Independent researchers without an established fiscal sponsor cannot receive an SFF funding recommendation. Nonprofits must be outside countries considered adversarial to the US; for-profits are generally supported in the US, UK, Canada, and Australia, with other countries requiring case-by-case confirmation.",
+        "special_requirements": [
+          "Applicant type/legal status: Nonprofits must already have charity status or be hosted/fiscally sponsored by a charity; independent researchers must have a fiscal sponsorship agreement before submitting",
+          "Applicant type/legal status: For-profit companies must already be incorporated and have a company bank account before submitting",
+          "Region: Check the recipient entity's country, not just the GLOBAL discovery label; nonprofits in countries considered adversarial to the US are excluded (https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-E/part-791/subpart-A/section-791.4)",
+          "Region: For-profit entities outside the US, UK, Canada, and Australia need confirmation from SFF before being treated as eligible; additional open-source or legal commitments may be required",
+          "Project fit: The proposal must seek funding on the basis of philanthropic impact on long-term survival and flourishing; research interest alone does not establish applicant eligibility",
+          "Unknown: No personal age, occupation, degree/enrollment, or minimum team-size criterion was identified in the reviewed instructions; this is not confirmation that no such criterion applies",
+          "Eligibility check order: Fail if a confirmed mandatory condition is not met; if a relevant condition is unknown, mark needs verification; proceed to requirements only after all applicable mandatory conditions are confirmed satisfied",
+          "Verified eligibility sources: https://survivalandflourishing.fund/2026/application ; https://docs.google.com/document/d/1oxlVMBkI4sQ9Ln1G5Ig8NBxpD6b282RBAUukAmXzPAs/edit"
+        ]
       },
       "requirements": {
-        "application_effort": "low",
+        "application_effort": "high",
         "key_requirements": [
-          "Concise project proposal",
-          "Theory of change / impact hypothesis"
+          "Submit the complete SFF Funding Rolling Application, including the Speculation Grant Request section; the same form requests expedited funding and consideration in the next S-Process round, so no separate Speculation Grant application is needed",
+          "Complete the applicable nonprofit or for-profit long-form application template and provide a PDF copy; submit publicly viewable document links or PDF alternatives where permitted",
+          "Provide contact and organization information, an up-to-date organization chart, and anonymized compensation information for staff whose compensation may be funded",
+          "Describe the plan for improving humanity's long-term survival and flourishing in 1-3 sentences, up to 1000 characters; for-profit applicants must also describe incentive alignment in 1-3 sentences, up to 1000 characters",
+          "For nonprofit or fiscally sponsored projects: Provide the receiving charity's name, country, tax ID, evidence of charity status, and confirmation that it has agreed to administer the funding",
+          "For for-profit applicants: Provide incorporation jurisdiction, fully executed incorporation documents, bylaws, tax ID, a grant-purpose statement of up to 200 characters, and information on funds raised, remaining funds, spending, and outstanding funding commitments",
+          "Specify a funding period of at least one year, a base request in USD, and the minimum acceptable grant; provide an approximate budget of no more than one page and a PDF copy, confidence in the spending plan, available funds, and how plans would change if only part of the request were funded",
+          "Describe concurrent fundraising, recent significant funding sources including prior SFF support, and unsuccessful fundraising attempts; ambitious requests and maximum grant amounts are optional",
+          "In the Speculation Grant Request section: Describe the primary activity in 1-2 sentences, up to 500 characters, state the amount requested immediately in USD, grant permission for Speculation Grantors to discuss the application, and provide reliable contact options; explaining urgency is optional",
+          "Complete the required acknowledgements covering reviewer sharing, AI-assisted review and data privacy, funding-amount uncertainty, anonymized numerical evaluations, and functional document links or PDF copies",
+          "If requesting a Matching Pledge: Specify the matching rate, maximum standard grant amount, fundraising deadline, and acknowledge that proof of external donations is required before matching funds are released; otherwise select not applicable",
+          "If seeking a specific S-Process round, meet that round's application deadline; late rolling applications remain eligible for Speculation Grants but move to a future S-Process round, and expedited decisions have no guaranteed turnaround",
+          "Verified against official instructions and application preview: https://survivalandflourishing.fund/speculation-grants ; https://survivalandflourishing.fund/2026/application ; https://docs.google.com/document/d/1oxlVMBkI4sQ9Ln1G5Ig8NBxpD6b282RBAUukAmXzPAs/edit"
         ],
         "focus_areas": [
           "AI safety",
@@ -132,26 +159,47 @@
         "stage": [
           "all"
         ],
-        "team_size_min": 1,
+        "team_size_min": null,
         "team_size_max": null,
         "geography": [
-          "Global"
+          "GLOBAL"
         ],
-        "restrictions": "Open to individuals, nonprofits, and companies globally (excluding sanctioned regions)",
-        "special_requirements": []
+        "restrictions": "Individuals must be at least 18 years old; for-profit and nonprofit organizations may also apply. Applicants in countries subject to US trade restrictions or export sanctions cannot be supported. Projects must fit OTF's internet freedom remit; GLOBAL does not override country restrictions.",
+        "special_requirements": [
+          "Applicant type/age: An individual applicant must be 18 or older; for-profit or nonprofit organizations are also eligible applicant types",
+          "Region: Check the applicant's country against applicable US trade restrictions and export sanctions using https://ofac.treasury.gov/; nationality, creed, or sex are not exclusions in themselves",
+          "Project fit: Support technology development, applied research, digital security ecosystem improvements, or community convenings that advance internet freedom for people facing repressive censorship or surveillance",
+          "Project exclusions: Basic internet connectivity except limited politically instigated shutdown cases, general ICT4D, and legal analysis or policy advocacy outside narrowly focused technical research are outside the remit; one-off training, training of trainers, or organizational capacity building cannot be the primary outcome under the Internet Freedom Fund",
+          "For community convenings only: The proposed event start date must be at least 90 days after the application is submitted",
+          "Unknown: No occupation, degree/enrollment, or minimum team-size criterion was identified in the reviewed instructions; this is not confirmation that no such criterion applies",
+          "Eligibility check order: Fail if a confirmed mandatory condition is not met; if a relevant condition is unknown, mark needs verification; proceed to requirements only after all applicable mandatory conditions are confirmed satisfied",
+          "Verified eligibility sources: https://www.opentech.fund/funds/internet-freedom-fund/ ; https://docs.opentech.fund/otf-application-guidebook/appendix-i-concept-note-guide"
+        ]
       },
       "requirements": {
         "application_effort": "medium",
         "key_requirements": [
-          "2-stage review: Concept note followed by full proposal",
-          "Open source licensing and public deliverables"
+          "Stage 1: Submit a Concept Note through https://apply.opentech.fund/internet-freedom-fund-concept-note/ with a project title, a 1-3 sentence summary, problem statement, project category, objectives and activities, and an explanation of how the effort differs from or complements existing projects",
+          "Concept Note: Estimate project duration and total funding in USD; identify specific beneficiaries and their locations, explain relevance to people facing repressive censorship or surveillance, describe team expertise and past work, and provide a contact name and valid email",
+          "Stage 2 is by invitation after a competitive Concept Note; respond to OTF feedback and submit the full proposal, including category-specific questions, for review including the Internet Freedom Fund Advisory Council",
+          "Full proposal: Describe the problem, approach, challenges, beneficiaries, and context (800 words recommended, 3000 maximum); describe objectives, activities, responsible contributors, and deliverables (500 recommended, 2000 maximum)",
+          "Full proposal: Explain related efforts (400 words recommended, 1000 maximum), monitoring, evaluation and learning (400 recommended, 1000 maximum), sustainability beyond OTF support (300 recommended, 1000 maximum), and team qualifications (400 recommended, 1000 maximum)",
+          "Provide a budget narrative linking costs to objectives, activities, and deliverables, including labor rates and relevant expenses; standalone indirect or overhead costs are generally unsupported, with any approved exception limited to 10% of total direct costs",
+          "Applied Research proposals: Describe methodology, actionable and accessible results, and research risks and ethics with mitigations (each response 400 words recommended, 1000 maximum)",
+          "Technology Development proposals: Explain technical feasibility (300 words recommended, 1000 maximum), adversarial analysis and prior security audits if any (400 recommended, 1000 maximum), and usability and accessibility practices (300 recommended, 1000 maximum)",
+          "Digital Security proposals: Include a security risk and mitigation plan, workshop plans if applicable, and how the effort advances digital security technology or understanding of threats (each response 400 words recommended, 1000 maximum)",
+          "Community Convening proposals: Describe collaborations, inclusion of underrepresented voices, event risks and security planning, and how lessons will be shared (each response 400 words recommended, 1000 maximum); provide a Code of Conduct with enforcement and reporting mechanisms",
+          "If funded: Agree to a deliverable-based contract with objectives, timelines, metrics, and project monitoring; payments follow completion of agreed deliverables rather than an upfront lump-sum grant",
+          "Verified against official program and applicant guides: https://www.opentech.fund/funds/internet-freedom-fund/ ; https://docs.opentech.fund/otf-application-guidebook/appendix-i-concept-note-guide ; https://docs.opentech.fund/otf-application-guidebook/appendix-ii-proposal-guide ; https://docs.opentech.fund/otf-application-guidebook/general-funding-guidelines"
         ],
         "focus_areas": [
           "Open source",
           "Internet freedom",
           "Digital security",
           "Anti-censorship",
-          "Privacy-preserving AI"
+          "Repressive surveillance circumvention",
+          "Applied internet freedom research",
+          "Internet freedom community convenings"
         ]
       },
       "recurring": "anytime",

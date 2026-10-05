@@ -1,0 +1,117 @@
+{
+  "region": "GLOBAL",
+  "name": "Global / Worldwide Grants",
+  "description": "Funding programs with no geographic restriction or open to remote/international applicants.",
+  "last_updated": "2026-10-05",
+  "total_grants": 2,
+  "grants": [
+    {
+      "id": "grant-sff-spec-202610",
+      "name": "Survival and Flourishing Fund - Speculation Grants",
+      "applicant_need": "research_project",
+      "source": {
+        "name": "Survival and Flourishing Fund",
+        "url": "https://survivalandflourishing.fund/s-process",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 10000,
+        "max_amount": 150000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "early-stage",
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "GLOBAL"
+        ],
+        "restrictions": "Projects mitigating existential risks or aligning transformative AI",
+        "special_requirements": []
+      },
+      "requirements": {
+        "application_effort": "low",
+        "key_requirements": [
+          "Concise project proposal",
+          "Theory of change / impact hypothesis"
+        ],
+        "focus_areas": [
+          "AI safety",
+          "Existential risk",
+          "AI governance",
+          "Longtermism"
+        ]
+      },
+      "recurring": "anytime",
+      "notes": "Fast turnaround rolling speculation grants awarded by SFF appointers. Receiving a speculation grant qualifies recipients for the larger annual S-Process rounds.",
+      "tags": [
+        "ai-safety",
+        "philanthropy",
+        "fast-process",
+        "existential-risk"
+      ]
+    },
+    {
+      "id": "grant-otf-iff-202610",
+      "name": "Open Technology Fund - Internet Freedom Fund",
+      "applicant_need": "community_support",
+      "source": {
+        "name": "Open Technology Fund",
+        "url": "https://www.opentech.fund/funds/internet-freedom-fund/",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 10000,
+        "max_amount": 900000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "GLOBAL"
+        ],
+        "restrictions": "Open to individuals, nonprofits, and companies globally (excluding sanctioned regions)",
+        "special_requirements": []
+      },
+      "requirements": {
+        "application_effort": "medium",
+        "key_requirements": [
+          "2-stage review: Concept note followed by full proposal",
+          "Open source licensing and public deliverables"
+        ],
+        "focus_areas": [
+          "Open source",
+          "Internet freedom",
+          "Digital security",
+          "Anti-censorship",
+          "Privacy-preserving AI"
+        ]
+      },
+      "recurring": "anytime",
+      "notes": "Year-round continuous rolling applications for open-source tools defending human rights and freedom of expression online. Typical award size $50K-$200K.",
+      "tags": [
+        "open-source",
+        "internet-freedom",
+        "privacy",
+        "rolling"
+      ]
+    }
+  ]
+}

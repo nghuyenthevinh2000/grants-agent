@@ -1,0 +1,109 @@
+{
+  "region": "SUB_SAHARAN_AFRICA",
+  "name": "SUB_SAHARAN_AFRICA Grant Funders & Discovery Channels",
+  "last_updated": "2026-10-05",
+  "total_funders": 3,
+  "funders": [
+    {
+      "id": "funder-lacuna-fund",
+      "name": "Lacuna Fund",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "hq_region": "SUB_SAHARAN_AFRICA",
+      "eligible_regions": [
+        "SUB_SAHARAN_AFRICA",
+        "LATAM",
+        "SOUTH_ASIA"
+      ],
+      "homepage_url": "https://lacunafund.org",
+      "funding_portal_url": "https://lacunafund.org/apply/",
+      "discovery_channels": [
+        "https://lacunafund.org/apply/"
+      ],
+      "focus_areas": [
+        "Open Datasets for AI",
+        "African NLP",
+        "Agriculture ML",
+        "Global Health Data"
+      ],
+      "applicant_types": [
+        "nonprofit",
+        "academic",
+        "research_institution"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "AI for Agriculture Datasets",
+        "Language Data Grants",
+        "Health Data Challenges"
+      ],
+      "agent_search_hints": "Grants of $50K\u2013$100K specifically to create high-quality open datasets for AI in the Global South."
+    },
+    {
+      "id": "funder-google-for-startups-africa",
+      "name": "Google for Startups Accelerator: Africa",
+      "category_id": 2,
+      "category": "Private/Corporate Funding",
+      "hq_region": "SUB_SAHARAN_AFRICA",
+      "eligible_regions": [
+        "SUB_SAHARAN_AFRICA"
+      ],
+      "homepage_url": "https://startup.google.com/programs/accelerator/africa/",
+      "funding_portal_url": "https://startup.google.com/programs/accelerator/africa/",
+      "discovery_channels": [
+        "https://startup.google.com/programs/accelerator/africa/"
+      ],
+      "focus_areas": [
+        "AI & Machine Learning",
+        "Fintech",
+        "AgriTech",
+        "Logistics"
+      ],
+      "applicant_types": [
+        "startup",
+        "early-stage"
+      ],
+      "typical_award_type": "gpu",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "Google for Startups Accelerator Africa",
+        "Black Founders Fund Africa"
+      ],
+      "agent_search_hints": "Non-dilutive awards including up to $350K in Google Cloud credits and direct equity-free cash support."
+    },
+    {
+      "id": "funder-aims-global",
+      "name": "African Institute for Mathematical Sciences (AIMS)",
+      "category_id": 6,
+      "category": "Academic Lab & Infrastructure Grants",
+      "hq_region": "SUB_SAHARAN_AFRICA",
+      "eligible_regions": [
+        "SUB_SAHARAN_AFRICA"
+      ],
+      "homepage_url": "https://aims.ac.rw",
+      "funding_portal_url": "https://aims.ac.rw/programs/",
+      "discovery_channels": [
+        "https://aims.ac.rw/programs/",
+        "https://aimsammi.org"
+      ],
+      "focus_areas": [
+        "African Masters in Machine Intelligence (AMMI)",
+        "Mathematical Sciences",
+        "Quantum Science"
+      ],
+      "applicant_types": [
+        "student",
+        "researcher",
+        "academic"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "AMMI Fellowships",
+        "AIMS Small Research Grants in Climate & Data Science"
+      ],
+      "agent_search_hints": "Check AMMI calls supported by Google and Meta for AI research fellowships."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "region": "LATAM",
+  "name": "LATAM Grant Funders & Discovery Channels",
+  "last_updated": "2026-10-05",
+  "total_funders": 3,
+  "funders": [
+    {
+      "id": "funder-fapesp-brazil",
+      "name": "S\u00e3o Paulo Research Foundation (FAPESP)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "LATAM",
+      "eligible_regions": [
+        "LATAM"
+      ],
+      "homepage_url": "https://fapesp.br/en",
+      "funding_portal_url": "https://fapesp.br/en/programs",
+      "discovery_channels": [
+        "https://fapesp.br/en/programs",
+        "https://fapesp.br/en/pipe"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence",
+        "Bioinformatics",
+        "Smart Agriculture",
+        "Renewable Energy"
+      ],
+      "applicant_types": [
+        "academic",
+        "startup",
+        "researcher"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "quarterly",
+      "active_programs_sample": [
+        "PIPE (Innovative Research in Small Businesses)",
+        "Engineering Research Centers",
+        "S\u00e3o Paulo Excellence Chairs"
+      ],
+      "agent_search_hints": "PIPE program offers non-dilutive R&D funding up to R$ 1.5M for tech ventures."
+    },
+    {
+      "id": "funder-idb-lab",
+      "name": "IDB Lab (Inter-American Development Bank)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "LATAM",
+      "eligible_regions": [
+        "LATAM"
+      ],
+      "homepage_url": "https://idblab.org/en",
+      "funding_portal_url": "https://idblab.org/en/projects-and-calls/calls-proposals",
+      "discovery_channels": [
+        "https://idblab.org/en/projects-and-calls/calls-proposals"
+      ],
+      "focus_areas": [
+        "Ethical AI (fAIr LAC)",
+        "Climate Tech",
+        "Financial Inclusion",
+        "EdTech"
+      ],
+      "applicant_types": [
+        "startup",
+        "nonprofit",
+        "consortium"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "fAIr LAC Initiative",
+        "Open Innovation Challenges",
+        "Catalytic Grants"
+      ],
+      "agent_search_hints": "Check fAIr LAC calls specifically supporting responsible AI adoption in Latin America."
+    },
+    {
+      "id": "funder-startup-chile",
+      "name": "Start-Up Chile (CORFO)",
+      "category_id": 4,
+      "category": "Non-Traditional Funding",
+      "hq_region": "LATAM",
+      "eligible_regions": [
+        "LATAM",
+        "GLOBAL"
+      ],
+      "homepage_url": "https://startupchile.org",
+      "funding_portal_url": "https://startupchile.org/programs/",
+      "discovery_channels": [
+        "https://startupchile.org/programs/"
+      ],
+      "focus_areas": [
+        "Deep Tech",
+        "Software",
+        "Fintech",
+        "Climate Solutions"
+      ],
+      "applicant_types": [
+        "early-stage",
+        "startup"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "quarterly",
+      "active_programs_sample": [
+        "Build (pre-seed equity-free)",
+        "Ignite (seed equity-free)",
+        "Growth"
+      ],
+      "agent_search_hints": "Provides 100% equity-free grants ($15K\u2013$100K USD) and 1-year work visa in Chile. Open globally."
+    }
+  ]
+}

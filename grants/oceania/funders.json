@@ -1,0 +1,111 @@
+{
+  "region": "OCEANIA",
+  "name": "OCEANIA Grant Funders & Discovery Channels",
+  "last_updated": "2026-10-05",
+  "total_funders": 3,
+  "funders": [
+    {
+      "id": "funder-arc-australia",
+      "name": "Australian Research Council (ARC)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "OCEANIA",
+      "eligible_regions": [
+        "OCEANIA"
+      ],
+      "homepage_url": "https://www.arc.gov.au",
+      "funding_portal_url": "https://www.arc.gov.au/funding-research/funding-calendar",
+      "discovery_channels": [
+        "https://www.arc.gov.au/funding-research/funding-calendar",
+        "https://rms.arc.gov.au"
+      ],
+      "focus_areas": [
+        "National AI Capability",
+        "Quantum Computing",
+        "Data Science",
+        "Engineering"
+      ],
+      "applicant_types": [
+        "academic",
+        "research_institution",
+        "consortium"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "Discovery Projects",
+        "Future Fellowships",
+        "ARC Centres of Excellence in AI & Robotics"
+      ],
+      "agent_search_hints": "Future Fellowships (FT) support mid-career researchers with high funding up to 4 years."
+    },
+    {
+      "id": "funder-csiro-australia",
+      "name": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "OCEANIA",
+      "eligible_regions": [
+        "OCEANIA"
+      ],
+      "homepage_url": "https://www.csiro.au",
+      "funding_portal_url": "https://www.csiro.au/en/work-with-us/funding-programs",
+      "discovery_channels": [
+        "https://www.csiro.au/en/work-with-us/funding-programs",
+        "https://data61.csiro.au"
+      ],
+      "focus_areas": [
+        "Data61 AI Research",
+        "Cybersecurity",
+        "Autonomous Systems",
+        "Quantum Technology"
+      ],
+      "applicant_types": [
+        "academic",
+        "startup",
+        "consortium"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "quarterly",
+      "active_programs_sample": [
+        "Next Generation AI Graduates Program",
+        "CSIRO Kick-Start for Startups"
+      ],
+      "agent_search_hints": "CSIRO Kick-Start provides dollar-matched research funding up to $50K AUD for Australian startups."
+    },
+    {
+      "id": "funder-callaghan-nz",
+      "name": "Callaghan Innovation (New Zealand)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "OCEANIA",
+      "eligible_regions": [
+        "OCEANIA"
+      ],
+      "homepage_url": "https://www.callaghaninnovation.govt.nz",
+      "funding_portal_url": "https://www.callaghaninnovation.govt.nz/grants/",
+      "discovery_channels": [
+        "https://www.callaghaninnovation.govt.nz/grants/"
+      ],
+      "focus_areas": [
+        "Digital Technology",
+        "Artificial Intelligence",
+        "Advanced Manufacturing",
+        "Agritech"
+      ],
+      "applicant_types": [
+        "startup",
+        "industry",
+        "researcher"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "NewDrive R&D Grant",
+        "Student Fellowship Grants",
+        "Project Grants"
+      ],
+      "agent_search_hints": "Student Fellowship Grants cover intern/postgrad R&D wages for NZ tech firms."
+    }
+  ]
+}

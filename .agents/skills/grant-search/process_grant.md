@@ -30,7 +30,7 @@ This file is the **single source of truth for the grant schema**. Add each grant
     "stage": ["early-stage", "growth", "all"],
     "team_size_min": 0,
     "team_size_max": null,
-    "geography": ["US", "Global", "Israel"],
+    "geography": ["GLOBAL", "SEA", "NORTH_AMERICA"],
     "restrictions": "501(c)(3) required, founders only, etc.",
     "special_requirements": ["first-time", "women-led", "underrepresented", "none", "other - short sentence explanation"]
   },
@@ -104,7 +104,19 @@ This file is the **single source of truth for the grant schema**. Add each grant
 - **stage**: Company stages eligible: `early-stage`, `growth`, or `all`
 - **team_size_min**: Minimum team size required (integer)
 - **team_size_max**: Maximum team size allowed (null for no limit)
-- **geography**: List of eligible countries/regions
+- **geography**: List of eligible region codes from the standard taxonomy:
+  - `GLOBAL`: Open worldwide / remote-friendly (Web3, AI safety, open source)
+  - `SEA`: Southeast Asia (Vietnam, Singapore, Indonesia, Thailand, Malaysia, etc.)
+  - `EAST_ASIA`: East Asia (Japan, South Korea, China, Taiwan, Hong Kong)
+  - `SOUTH_ASIA`: South Asia (India, Pakistan, Bangladesh, Sri Lanka)
+  - `MENA`: Middle East & North Africa (UAE, Saudi Arabia, Qatar, Israel, Egypt, Morocco)
+  - `NORTH_AMERICA`: United States & Canada (US Federal, NSF, DARPA, NSERC)
+  - `EUROPE`: European Union, UK, Switzerland, Norway (Horizon Europe, UKRI)
+  - `LATAM`: Latin America & Caribbean (Brazil, Mexico, Colombia, Chile, Argentina)
+  - `SUB_SAHARAN_AFRICA`: Sub-Saharan Africa (Nigeria, Kenya, South Africa, Rwanda, Ghana)
+  - `OCEANIA`: Australia, New Zealand, Pacific Islands
+  - *Modifiers*: `CROSS_BORDER`, `BILATERAL`
+- Regional folders are stored under `grants/<region-slug>/` (`global/`, `sea/`, `north-america/`, etc.).
 - **restrictions**: Specific disqualifying factors or requirements (e.g., "501(c)(3) required")
 - **special_requirements**: List of special criteria such as `first-time`, `women-led`, `underrepresented`, `none`, or descriptive text
 

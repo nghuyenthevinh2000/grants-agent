@@ -27,6 +27,11 @@ SOURCE_TYPES = ["website", "email", "recommendation", "partnership"]
 RECURRING_TYPES = ["yearly", "quarterly", "one-time", "anytime", "no", "other"]
 STAGES = ["early-stage", "growth", "all"]
 EFFORT_LEVELS = ["low", "medium", "high"]
+GEOGRAPHY_REGIONS = [
+    "GLOBAL", "SEA", "EAST_ASIA", "SOUTH_ASIA", "MENA",
+    "NORTH_AMERICA", "EUROPE", "LATAM", "SUB_SAHARAN_AFRICA", "OCEANIA",
+    "CROSS_BORDER", "BILATERAL"
+]
 
 
 class GrantValidator:
@@ -168,8 +173,13 @@ class GrantValidator:
             if not isinstance(eligibility["team_size_max"], int):
                 self.errors.append("eligibility.team_size_max must be integer or null")
 
-        if "geography" in eligibility and not isinstance(eligibility["geography"], list):
-            self.errors.append("eligibility.geography must be array")
+        if "geography" in eligibility:
+            if not isinstance(eligibility["geography"], list):
+                self.errors.append("eligibility.geography must be array")
+            else:
+                for g in eligibility["geography"]:
+                    if g not in GEOGRAPHY_REGIONS:
+                        self.warnings.append(f"eligibility.geography '{g}' not in standard regions: {GEOGRAPHY_REGIONS}")
 
         if "restrictions" in eligibility and not isinstance(eligibility["restrictions"], str):
             self.errors.append("eligibility.restrictions must be string")

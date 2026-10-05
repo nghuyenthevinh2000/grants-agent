@@ -2,7 +2,7 @@
 
 **Ngày lập báo cáo:** 05/10/2026  
 **Hồ sơ ứng viên:** [cau-chuyen-tran-the-son.md](../../social-content/topics/young-student/cau-chuyen-tran-the-son.md)  
-**Cơ sở dữ liệu đối chiếu:** [grants/funder_websites.json](../grants/funder_websites.json), [grants/newest_grants.json](../grants/newest_grants.json)
+**Cơ sở dữ liệu đối chiếu:** [grants/](../grants/README.md) (đặc biệt: [grants/sea/](../grants/sea/README.md), [grants/global/](../grants/global/README.md), [grants/newest_grants.json](../grants/newest_grants.json))
 
 ---
 

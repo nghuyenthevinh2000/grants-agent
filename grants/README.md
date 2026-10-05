@@ -1,38 +1,78 @@
-# Grants Directory
+# Grants & Funders Directory
 
-This directory stores outputs and resources from the `grant-search` pipeline.
+This directory stores outputs and resources from the `grant-search` pipeline, organized by **Geographic Region**.
 
-- **Funder Directory**: [`funder_websites.json`](funder_websites.json) – 57 curated AI/tech grant funders across 10 search categories with direct portals and discovery channels for fast agent iteration.
-- **Newest Grants**: [`newest_grants.json`](newest_grants.json) – Grants added during the latest discovery run.
-
-## Newest Results (Discovered: 2026-10-05)
-
-Consolidated JSON: [`newest_grants.json`](newest_grants.json)
-
-| ID | Program Name | Organization | Award Range | Deadline | Need | Direct Link |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `grant-nsf-mri-202611` | **NSF Major Research Instrumentation Program (MRI)** | National Science Foundation | $100,000 – $4,000,000 | 2026-11-16 | `infrastructure` | [NSF MRI Portal](https://new.nsf.gov/funding/opportunities/major-research-instrumentation-program-mri) |
-| `grant-sff-spec-202610` | **Survival and Flourishing Fund - Speculation Grants** | Survival and Flourishing Fund | $10,000 – $150,000 | Rolling | `research_project` | [SFF Process Page](https://survivalandflourishing.fund/s-process) |
-| `grant-otf-iff-202610` | **Open Technology Fund - Internet Freedom Fund** | Open Technology Fund | $10,000 – $900,000 | Rolling | `community_support` | [OTF Fund Page](https://www.opentech.fund/funds/internet-freedom-fund/) |
+- **Regional Funder Databases**: 163 curated AI/tech grant funders partitioned into 10 regional folders (`<region>/funders.json`).
+- **Latest Discovery Feed**: [`newest_grants.json`](newest_grants.json) – Feed of newly discovered grants across all regions.
+- **Regional Summary Report**: [`regional_summary.json`](regional_summary.json) – Automated count and breakdown of grants and funders per region.
 
 ---
 
-## Program Details
+## Regional Directories
 
-### 1. NSF Major Research Instrumentation Program (MRI)
-- **Award**: $100,000 – $4,000,000 USD (cash / equipment acquisition or development)
-- **Application Window**: October 15, 2026 – November 16, 2026
-- **Eligibility**: US institutions of higher education and US non-profit research organizations. Maximum 4 proposals per institution.
-- **Focus**: Scientific computing infrastructure, AI data science equipment, and specialized research instruments. Statutory cost-sharing is waived.
+Each regional directory contains two synchronized resources:
+1. `grants.json`: Verified active/rolling grant opportunities matching the region.
+2. `funders.json`: Curated funding organizations, government agencies, corporate labs, and direct application portals based in or funding that region.
 
-### 2. Survival and Flourishing Fund - Speculation Grants
-- **Award**: $10,000 – $150,000 USD (cash)
-- **Deadline**: Rolling
-- **Eligibility**: Global researchers, teams, and early-stage organizations addressing existential risk or AI safety.
-- **Focus**: Technical AI safety, AI governance, transformative AI alignment, and existential risk mitigation. Fast-turnaround decisions.
+| Folder | Region Code | Scope & Tech Hubs | Grants Tracked | Funders & Portals |
+| :--- | :--- | :--- | :--- | :--- |
+| [`global/`](global/README.md) | `GLOBAL` | No geographic barrier; remote-friendly; Web3, AI safety, open-source | [2 grants](global/grants.json) | [36 funders](global/funders.json) |
+| [`sea/`](sea/README.md) | `SEA` | Southeast Asia (Vietnam, Singapore, Indonesia, Thailand, Malaysia...) | [2 grants](sea/grants.json) | [5 funders](sea/funders.json) |
+| [`north-america/`](north-america/README.md) | `NORTH_AMERICA` | United States and Canada (US Federal, NSF, DARPA, NSERC) | [1 grant](north-america/grants.json) | [100 funders](north-america/funders.json) |
+| [`europe/`](europe/README.md) | `EUROPE` | EU member states, United Kingdom, Switzerland, Norway (Horizon, UKRI) | [0 grants](europe/grants.json) | [5 funders](europe/funders.json) |
+| [`east-asia/`](east-asia/README.md) | `EAST_ASIA` | Japan, South Korea, China, Taiwan, Hong Kong (JSPS, NRF Korea, NSFC) | [0 grants](east-asia/grants.json) | [3 funders](east-asia/funders.json) |
+| [`south-asia/`](south-asia/README.md) | `SOUTH_ASIA` | India, Pakistan, Bangladesh, Sri Lanka (SERB, BIRAC, MeitY) | [0 grants](south-asia/grants.json) | [2 funders](south-asia/funders.json) |
+| [`mena/`](mena/README.md) | `MENA` | Middle East & North Africa (UAE, Saudi Arabia, Qatar, Israel, Egypt) | [0 grants](mena/grants.json) | [3 funders](mena/funders.json) |
+| [`latam/`](latam/README.md) | `LATAM` | Latin America & Caribbean (Brazil, Mexico, Colombia, Chile, Argentina) | [0 grants](latam/grants.json) | [3 funders](latam/funders.json) |
+| [`sub-saharan-africa/`](sub-saharan-africa/README.md) | `SUB_SAHARAN_AFRICA` | Sub-Saharan Africa (Nigeria, Kenya, South Africa, Rwanda, Ghana) | [0 grants](sub-saharan-africa/grants.json) | [3 funders](sub-saharan-africa/funders.json) |
+| [`oceania/`](oceania/README.md) | `OCEANIA` | Australia, New Zealand, Pacific Islands (ARC, CSIRO, Callaghan) | [0 grants](oceania/grants.json) | [3 funders](oceania/funders.json) |
 
-### 3. Open Technology Fund - Internet Freedom Fund
-- **Award**: $10,000 – $900,000 USD (cash, typical awards $50,000 – $200,000)
-- **Deadline**: Rolling (year-round 2-stage concept note review)
-- **Eligibility**: Global individuals, nonprofits, and companies working on open-source solutions.
-- **Focus**: Censorship circumvention, digital security, privacy-preserving AI, and open internet freedom infrastructure.
+---
+
+## Directory Layout
+
+```
+grants/
+├── README.md                      # Central hub and regional index
+├── newest_grants.json             # Global chronological discovery feed
+├── global/
+│   ├── README.md
+│   ├── grants.json                # Grants open globally
+│   └── funders.json               # Global funders (Web3, AI Safety, OSS)
+├── sea/
+│   ├── README.md
+│   ├── grants.json                # Grants for Southeast Asia / Vietnam
+│   └── funders.json               # Regional funders (VinIF, NAFOSTED, SG NRF)
+├── north-america/
+│   ├── README.md
+│   ├── grants.json
+│   └── funders.json               # US Federal, State, corporate labs
+├── europe/
+│   ├── README.md
+│   ├── grants.json
+│   └── funders.json               # Horizon Europe, UKRI, Wellcome Trust, ERC
+├── east-asia/
+│   ├── README.md
+│   ├── grants.json
+│   └── funders.json               # JSPS, NRF Korea, NSFC
+├── south-asia/
+│   ├── README.md
+│   ├── grants.json
+│   └── funders.json               # SERB, BIRAC
+├── mena/
+│   ├── README.md
+│   ├── grants.json
+│   └── funders.json               # KAUST, Dubai Future, IIA
+├── latam/
+│   ├── README.md
+│   ├── grants.json
+│   └── funders.json               # FAPESP, IDB Lab, Start-Up Chile
+├── sub-saharan-africa/
+│   ├── README.md
+│   ├── grants.json
+│   └── funders.json               # Lacuna Fund, AIMS, Google Africa
+└── oceania/
+    ├── README.md
+    ├── grants.json
+    └── funders.json               # ARC, CSIRO, Callaghan Innovation
+```

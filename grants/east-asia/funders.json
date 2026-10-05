@@ -1,0 +1,110 @@
+{
+  "region": "EAST_ASIA",
+  "name": "EAST_ASIA Grant Funders & Discovery Channels",
+  "last_updated": "2026-10-05",
+  "total_funders": 3,
+  "funders": [
+    {
+      "id": "funder-jsps-japan",
+      "name": "Japan Society for the Promotion of Science (JSPS / MEXT)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "EAST_ASIA",
+      "eligible_regions": [
+        "EAST_ASIA"
+      ],
+      "homepage_url": "https://www.jsps.go.jp/english/",
+      "funding_portal_url": "https://www.jsps.go.jp/english/e-fellow/index.html",
+      "discovery_channels": [
+        "https://www.jsps.go.jp/english/e-grants/index.html",
+        "https://www.jst.go.jp/crds/en/index.html"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Next-Gen Semiconductors",
+        "Quantum Computing"
+      ],
+      "applicant_types": [
+        "academic",
+        "postdoc",
+        "researcher"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "KAKENHI (Grants-in-Aid)",
+        "JSPS Postdoctoral Fellowships for Overseas Researchers",
+        "JST Moonshot R&D"
+      ],
+      "agent_search_hints": "Look for JST Moonshot Program Goal 1 & 3 (AI, Cybernetic Avatars) and JSPS Invitational Fellowships."
+    },
+    {
+      "id": "funder-nrf-korea",
+      "name": "National Research Foundation of Korea (NRF)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "EAST_ASIA",
+      "eligible_regions": [
+        "EAST_ASIA"
+      ],
+      "homepage_url": "https://www.nrf.re.kr/eng/main",
+      "funding_portal_url": "https://www.nrf.re.kr/eng/page/programs",
+      "discovery_channels": [
+        "https://www.nrf.re.kr/eng/page/programs",
+        "https://www.msit.go.kr/eng/index.do"
+      ],
+      "focus_areas": [
+        "AI Semiconductors",
+        "Hyperscale AI",
+        "Quantum Science",
+        "Bio-Convergence"
+      ],
+      "applicant_types": [
+        "academic",
+        "consortium",
+        "industry"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "AI Innovation Hub",
+        "Brain Pool Program for International Researchers",
+        "National AI Semiconductor R&D"
+      ],
+      "agent_search_hints": "Search Brain Pool fellowship solicitations for international scientists."
+    },
+    {
+      "id": "funder-nsfc-china",
+      "name": "National Natural Science Foundation of China (NSFC)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "EAST_ASIA",
+      "eligible_regions": [
+        "EAST_ASIA"
+      ],
+      "homepage_url": "https://www.nsfc.gov.cn/publish/portal1/",
+      "funding_portal_url": "https://www.nsfc.gov.cn/english/site_1/index.html",
+      "discovery_channels": [
+        "https://www.nsfc.gov.cn/english/site_1/funding/index.html"
+      ],
+      "focus_areas": [
+        "Foundational Mathematics",
+        "Information Sciences",
+        "Large Language Models",
+        "Quantum Physics"
+      ],
+      "applicant_types": [
+        "academic",
+        "national_lab"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "Major Research Plan on AI",
+        "International Young Scientists Fellowship"
+      ],
+      "agent_search_hints": "Monitor Department of Information Sciences calls in Department 2 and Department 3."
+    }
+  ]
+}

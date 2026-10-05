@@ -1,0 +1,119 @@
+{
+  "region": "SEA",
+  "name": "Southeast Asia Grants",
+  "description": "Funding opportunities for researchers, startups, and institutions in Southeast Asia (Vietnam, Singapore, Indonesia, Thailand, Malaysia, Philippines, etc.).",
+  "last_updated": "2026-10-05",
+  "total_grants": 2,
+  "grants": [
+    {
+      "id": "grant-vinif-research-2026",
+      "name": "VinIF Science and Technology Research Grants",
+      "applicant_need": "research_project",
+      "source": {
+        "name": "Vingroup Innovation Foundation (VinIF)",
+        "url": "https://vinif.org",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 20000,
+        "max_amount": 400000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "SEA"
+        ],
+        "restrictions": "Researchers or research groups affiliated with universities or research institutes in Vietnam",
+        "special_requirements": []
+      },
+      "requirements": {
+        "application_effort": "high",
+        "key_requirements": [
+          "Host institution sponsorship",
+          "Detailed scientific research proposal and budget",
+          "Publication and patent deliverables plan"
+        ],
+        "focus_areas": [
+          "Artificial Intelligence",
+          "Data Science",
+          "Biomedical Technology",
+          "Quantum and New Materials"
+        ]
+      },
+      "recurring": "yearly",
+      "notes": "Premier scientific research grant in Vietnam. Annual call typically opens in Q1/Q2.",
+      "tags": [
+        "vietnam",
+        "sea",
+        "science-tech",
+        "academic"
+      ]
+    },
+    {
+      "id": "grant-kyber-sea-web3-2026",
+      "name": "Kyber Network & Vietnam Web3 Innovation Grants",
+      "applicant_need": "community_support",
+      "source": {
+        "name": "Kyber Network",
+        "url": "https://kyber.org",
+        "discovered_date": "2026-10-05",
+        "source_type": "partnership"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 5000,
+        "max_amount": 50000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "early-stage",
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "SEA",
+          "GLOBAL"
+        ],
+        "restrictions": "Open to developers and researchers in Vietnam and Southeast Asia contributing to open decentralized protocols",
+        "special_requirements": []
+      },
+      "requirements": {
+        "application_effort": "low",
+        "key_requirements": [
+          "Open source GitHub repo",
+          "Demo or technical architecture specification"
+        ],
+        "focus_areas": [
+          "Post-Quantum Cryptography",
+          "Decentralized Finance",
+          "Zero-Knowledge Proofs",
+          "Infrastructure"
+        ]
+      },
+      "recurring": "anytime",
+      "notes": "Tailored for grassroots tech talent and independent researchers in Vietnam and SEA without degree restrictions.",
+      "tags": [
+        "sea",
+        "vietnam",
+        "web3",
+        "cryptography",
+        "fast-track"
+      ]
+    }
+  ]
+}

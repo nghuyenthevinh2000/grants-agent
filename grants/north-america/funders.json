@@ -1,19 +1,8 @@
 {
-  "schema_version": "1.0",
-  "total_funders": 139,
+  "region": "NORTH_AMERICA",
+  "name": "NORTH_AMERICA Grant Funders & Discovery Channels",
   "last_updated": "2026-10-05",
-  "categories_overview": {
-    "1": "Government & Institutional Funding",
-    "2": "Private/Corporate Funding",
-    "3": "Philanthropic & Mission-Driven Funding",
-    "4": "Non-Traditional Funding",
-    "5": "GPU & Compute Infrastructure Funding",
-    "6": "Academic Lab & Infrastructure Grants",
-    "7": "Career Development & Early-Career Researcher Grants",
-    "8": "Large-Scale Coordinated & Consortium Research",
-    "9": "Open Source & Community-Driven Research Funding",
-    "10": "Discovery Channels & Aggregators"
-  },
+  "total_funders": 100,
   "funders": [
     {
       "id": "funder-nih-arpah",
@@ -45,7 +34,11 @@
         "NIH Biomedical Data Translator",
         "Bridge2AI"
       ],
-      "agent_search_hints": "Check ARPA-H Open BAA for broad mission areas and NIH Guide for Grants and Contracts filtering by AI."
+      "agent_search_hints": "Check ARPA-H Open BAA for broad mission areas and NIH Guide for Grants and Contracts filtering by AI.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-darpa",
@@ -78,7 +71,11 @@
         "AI Exploration (AIE) Program",
         "DARPA AI Next"
       ],
-      "agent_search_hints": "Search SAM.gov for DARPA BAAs (especially I2O, DSO, STO). AIE solicitations have fast 90-day turnaround windows."
+      "agent_search_hints": "Search SAM.gov for DARPA BAAs (especially I2O, DSO, STO). AIE solicitations have fast 90-day turnaround windows.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-doe-science",
@@ -108,40 +105,11 @@
         "DOE Early Career Research Program",
         "ASCR Research Announcements"
       ],
-      "agent_search_hints": "Check Advanced Scientific Computing Research (ASCR) program announcements on OSTI.gov."
-    },
-    {
-      "id": "funder-eu-horizon",
-      "name": "European Commission - Horizon Europe",
-      "category_id": 1,
-      "category": "Government & Institutional Funding",
-      "homepage_url": "https://ec.europa.eu/info/research-and-innovation_en",
-      "funding_portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/horizon",
-      "discovery_channels": [
-        "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?order=DESC&pageNumber=1&pageSize=50&sortBy=startDate&isExactMatch=true&status=31094501,31094502&programmePeriod=2021%20-%202027&frameworkProgramme=43108390"
-      ],
-      "focus_areas": [
-        "Trustworthy AI",
-        "Green AI",
-        "Robotics",
-        "Industrial AI",
-        "Data Spaces",
-        "Next-Gen AI Agents"
-      ],
-      "applicant_types": [
-        "consortium",
-        "academic",
-        "industry",
-        "sme"
-      ],
-      "typical_award_type": "cash",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "HORIZON-CL4 Digital, Industry and Space",
-        "European Research Council (ERC) Grants",
-        "Marie Curie Actions"
-      ],
-      "agent_search_hints": "Search EU Funding & Tenders Portal filtering by Framework Programme: Horizon Europe and Cluster 4 (HORIZON-CL4)."
+      "agent_search_hints": "Check Advanced Scientific Computing Research (ASCR) program announcements on OSTI.gov.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-nsf",
@@ -177,7 +145,11 @@
         "TechAccess: AI-Ready America",
         "NSF GRFP"
       ],
-      "agent_search_hints": "Filter solicitations by keywords \"Artificial Intelligence\" or \"CISE\". Check Dear Colleague Letters (DCLs) for supplements."
+      "agent_search_hints": "Filter solicitations by keywords \"Artificial Intelligence\" or \"CISE\". Check Dear Colleague Letters (DCLs) for supplements.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-hhs",
@@ -208,7 +180,11 @@
         "ACL Caregiver AI Competitions",
         "Administration for Community Living Grants"
       ],
-      "agent_search_hints": "Look for Administration for Community Living (ACL) and CDC challenges related to AI assistive tools."
+      "agent_search_hints": "Look for Administration for Community Living (ACL) and CDC challenges related to AI assistive tools.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-amazon-science",
@@ -237,236 +213,11 @@
       "active_programs_sample": [
         "Amazon Research Awards (Fall & Spring Calls)"
       ],
-      "agent_search_hints": "Runs twice a year (Spring & Fall). Awards unrestricted cash gifts (up to $80K) plus AWS promotional credits ($20K-$40K)."
-    },
-    {
-      "id": "funder-anthropic",
-      "name": "Anthropic",
-      "category_id": 2,
-      "category": "Private/Corporate Funding",
-      "homepage_url": "https://www.anthropic.com",
-      "funding_portal_url": "https://alignment.anthropic.com",
-      "discovery_channels": [
-        "https://alignment.anthropic.com",
-        "https://www.anthropic.com/research"
-      ],
-      "focus_areas": [
-        "Mechanistic Interpretability",
-        "AI Alignment",
-        "Constitutional AI",
-        "Societal Impacts",
-        "Model Evaluations"
-      ],
-      "applicant_types": [
-        "fellow",
-        "independent_researcher",
-        "academic"
-      ],
-      "typical_award_type": "fellowship_and_credits",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "Anthropic Fellows Program",
-        "AI Safety Research Access"
-      ],
-      "agent_search_hints": "Anthropic Fellows Program funds researchers directly working with technical safety teams."
-    },
-    {
-      "id": "funder-ethereum-foundation",
-      "name": "Ethereum Foundation (Ecosystem Support Program)",
-      "category_id": 2,
-      "category": "Private/Corporate Funding",
-      "homepage_url": "https://ethereum.foundation",
-      "funding_portal_url": "https://esp.ethereum.foundation",
-      "discovery_channels": [
-        "https://esp.ethereum.foundation",
-        "https://esp.ethereum.foundation/office-hours",
-        "https://fellowship.ethereum.foundation",
-        "https://blog.ethereum.org"
-      ],
-      "focus_areas": [
-        "Post-Quantum Cryptography",
-        "Zero-Knowledge Proofs",
-        "Core Protocol Infrastructure",
-        "Academic Research",
-        "Conference & Travel Grants"
-      ],
-      "applicant_types": [
-        "independent_researcher",
-        "academic",
-        "developer",
-        "student"
-      ],
-      "typical_award_type": "cash_grant_and_travel",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Ecosystem Support Program (ESP)",
-        "Next Billion Fellowship",
-        "Devcon & Devconnect Scholars Travel Grants",
-        "Ethereum Academic Research Grants"
-      ],
-      "agent_search_hints": "ESP operates rolling grants and project-based travel support for core protocol and cryptographic researchers. Use ESP Office Hours for fast proposal alignment."
-    },
-    {
-      "id": "funder-google-research",
-      "name": "Google Research & Google DeepMind",
-      "category_id": 2,
-      "category": "Private/Corporate Funding",
-      "homepage_url": "https://research.google",
-      "funding_portal_url": "https://research.google/outreach/academic-research-awards/",
-      "discovery_channels": [
-        "https://research.google/outreach/academic-research-awards/",
-        "https://research.google/programs-and-events/phd-fellowship/",
-        "https://labs.google/aifuturesfund"
-      ],
-      "focus_areas": [
-        "Machine Learning",
-        "Quantum Computing",
-        "NLP",
-        "Responsible AI",
-        "Robotics"
-      ],
-      "applicant_types": [
-        "academic",
-        "faculty",
-        "phd_student"
-      ],
-      "typical_award_type": "cash_gift",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "Google Academic Research Awards",
-        "Google PhD Fellowship",
-        "Award for Inclusion Research (AIR)",
-        "AI Futures Fund"
-      ],
-      "agent_search_hints": "Monitor Google Research Outreach page for seasonal RFPs (typically unrestricted gifts to universities)."
-    },
-    {
-      "id": "funder-google-org",
-      "name": "Google.org",
-      "category_id": 2,
-      "category": "Private/Corporate Funding",
-      "homepage_url": "https://google.org",
-      "funding_portal_url": "https://google.org/impact-challenges/",
-      "discovery_channels": [
-        "https://google.org/impact-challenges/"
-      ],
-      "focus_areas": [
-        "AI for Science",
-        "AI for Social Good",
-        "Climate AI",
-        "Government Innovation",
-        "Education"
-      ],
-      "applicant_types": [
-        "nonprofit",
-        "academic",
-        "social_enterprise"
-      ],
-      "typical_award_type": "cash",
-      "cycle_frequency": "quarterly",
-      "active_programs_sample": [
-        "Google.org Impact Challenge: AI for Science",
-        "AI for Government Innovation"
-      ],
-      "agent_search_hints": "Impact Challenges offer $500K-$3M in funding alongside Google technical fellowship support."
-    },
-    {
-      "id": "funder-meta-ai",
-      "name": "Meta AI",
-      "category_id": 2,
-      "category": "Private/Corporate Funding",
-      "homepage_url": "https://ai.meta.com",
-      "funding_portal_url": "https://research.facebook.com/research-awards/",
-      "discovery_channels": [
-        "https://research.facebook.com/research-awards/",
-        "https://www.llama.com/llama-ai-innovation/"
-      ],
-      "focus_areas": [
-        "Open Source AI",
-        "Llama Innovation",
-        "AI Security",
-        "Audio & Speech Processing",
-        "Hardware-Software Co-Design"
-      ],
-      "applicant_types": [
-        "academic",
-        "startup",
-        "open_source_contributor"
-      ],
-      "typical_award_type": "cash_and_hardware",
-      "cycle_frequency": "quarterly",
-      "active_programs_sample": [
-        "Llama AI Innovation Grants",
-        "Meta Research Awards",
-        "Meta PhD Research Fellowship"
-      ],
-      "agent_search_hints": "Look for Llama ecosystem grants supporting open-weights innovation and academic RFPs on research.facebook.com."
-    },
-    {
-      "id": "funder-microsoft-research",
-      "name": "Microsoft Research",
-      "category_id": 2,
-      "category": "Private/Corporate Funding",
-      "homepage_url": "https://www.microsoft.com/en-us/research/",
-      "funding_portal_url": "https://www.microsoft.com/en-us/research/academic-program/",
-      "discovery_channels": [
-        "https://www.microsoft.com/en-us/research/academic-program/",
-        "https://www.microsoft.com/en-us/research/collaboration/accelerating-foundation-models-research/"
-      ],
-      "focus_areas": [
-        "Foundation Models",
-        "AI Alignment",
-        "Societal Impacts",
-        "Computer Vision",
-        "Systems for AI"
-      ],
-      "applicant_types": [
-        "faculty",
-        "phd_student",
-        "academic"
-      ],
-      "typical_award_type": "cash_and_credits",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "Microsoft Research PhD Fellowship",
-        "Accelerating Foundation Models Research (AFMR)",
-        "Ada Lovelace Fellowship"
-      ],
-      "agent_search_hints": "Look for university nomination requirements for fellowships and open RFPs for Azure AI compute credits."
-    },
-    {
-      "id": "funder-openai",
-      "name": "OpenAI",
-      "category_id": 2,
-      "category": "Private/Corporate Funding",
-      "homepage_url": "https://openai.com",
-      "funding_portal_url": "https://openai.com/grants/",
-      "discovery_channels": [
-        "https://openai.com/grants/",
-        "https://openai.com/index/researcher-access-program/",
-        "https://openai.com/startup-fund/"
-      ],
-      "focus_areas": [
-        "AI Safety",
-        "Model Alignment",
-        "Democratic Inputs to AI",
-        "Responsible Deployment",
-        "Mental Health AI"
-      ],
-      "applicant_types": [
-        "individual",
-        "academic",
-        "startup",
-        "nonprofit"
-      ],
-      "typical_award_type": "credits_and_cash",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "OpenAI Researcher Access Program",
-        "OpenAI Startup Fund",
-        "Democratic Inputs to AI Grants"
-      ],
-      "agent_search_hints": "Researcher Access Program grants $1K-$5K in API credits on rolling cycles; check OpenAI blog announcements for dedicated grant RFPs."
+      "agent_search_hints": "Runs twice a year (Spring & Fall). Awards unrestricted cash gifts (up to $80K) plus AWS promotional credits ($20K-$40K).",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-reid-hoffman",
@@ -496,36 +247,11 @@
         "Trust in American Institutions Challenge ($10M)",
         "Stanford HAI Strategic Funding"
       ],
-      "agent_search_hints": "Check Lever for Change open challenges funded by Reid Hoffman and Stanford HAI partnerships."
-    },
-    {
-      "id": "funder-stripe",
-      "name": "Stripe & Frontier Climate",
-      "category_id": 2,
-      "category": "Private/Corporate Funding",
-      "homepage_url": "https://stripe.com",
-      "funding_portal_url": "https://frontierclimate.com/",
-      "discovery_channels": [
-        "https://frontierclimate.com/",
-        "https://stripe.com/press"
-      ],
-      "focus_areas": [
-        "Carbon Removal Technology",
-        "Open Financial Infrastructure",
-        "Developer Ecosystem Grants"
-      ],
-      "applicant_types": [
-        "startup",
-        "researcher",
-        "open_source_project"
-      ],
-      "typical_award_type": "advance_market_commitment_grant",
-      "cycle_frequency": "semi-annual",
-      "active_programs_sample": [
-        "Frontier Carbon Offtake & Grants",
-        "Stripe Open Source Sponsorships"
-      ],
-      "agent_search_hints": "Frontier provides non-dilutive offtake purchase agreements and research funding for deep tech."
+      "agent_search_hints": "Check Lever for Change open challenges funded by Reid Hoffman and Stanford HAI partnerships.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-sloan",
@@ -555,7 +281,11 @@
         "Sloan Research Fellowships ($75K)",
         "Digital Technology Grants"
       ],
-      "agent_search_hints": "Sloan Research Fellowships deadline is typically September; digital technology grants review Letters of Inquiry year-round."
+      "agent_search_hints": "Sloan Research Fellowships deadline is typically September; digital technology grants review Letters of Inquiry year-round.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-bezos-earth",
@@ -584,334 +314,11 @@
       "active_programs_sample": [
         "AI for Climate and Nature Grand Challenges ($100M initiative)"
       ],
-      "agent_search_hints": "Funds large institutional initiatives and open calls addressing planetary challenges using AI."
-    },
-    {
-      "id": "funder-fli",
-      "name": "Future of Life Institute (FLI)",
-      "category_id": 3,
-      "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://futureoflife.org",
-      "funding_portal_url": "https://futureoflife.org/grants/",
-      "discovery_channels": [
-        "https://futureoflife.org/grants/"
-      ],
-      "focus_areas": [
-        "Beneficial AI",
-        "Autonomous Weapons Policy",
-        "X-Risk Mitigation",
-        "AI Policy Fellowships"
-      ],
-      "applicant_types": [
-        "academic",
-        "policy_expert",
-        "nonprofit"
-      ],
-      "typical_award_type": "cash",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "FLI AI Safety Grants",
-        "Policy Residencies"
-      ],
-      "agent_search_hints": "Periodically launches targeted grant competitions with budgets ranging $100K to $1M+ for beneficial AI."
-    },
-    {
-      "id": "funder-manifund",
-      "name": "Manifund",
-      "category_id": 3,
-      "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://manifund.org",
-      "funding_portal_url": "https://manifund.org/projects",
-      "discovery_channels": [
-        "https://manifund.org/projects",
-        "https://manifund.org/apply"
-      ],
-      "focus_areas": [
-        "AI Safety",
-        "AI Governance",
-        "Open Science",
-        "High-Risk Experimental AI"
-      ],
-      "applicant_types": [
-        "individual",
-        "independent_researcher",
-        "early_stage"
-      ],
-      "typical_award_type": "regrant_cash",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Manifund Regrantor Program",
-        "Crowdsourced Cause Rounds"
-      ],
-      "agent_search_hints": "Regrantor model allows individual regrantors to allocate $2K-$50K rapidly without institutional overhead. Acts as fiscal sponsor."
-    },
-    {
-      "id": "funder-mozilla",
-      "name": "Mozilla Foundation",
-      "category_id": 3,
-      "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://foundation.mozilla.org",
-      "funding_portal_url": "https://foundation.mozilla.org/en/what-we-do/grantmaking/",
-      "discovery_channels": [
-        "https://foundation.mozilla.org/en/what-we-do/grantmaking/",
-        "https://foundation.mozilla.org/en/what-we-do/grantmaking/fellowship/"
-      ],
-      "focus_areas": [
-        "Trustworthy AI",
-        "Open Source AI",
-        "Responsible Tech",
-        "Algorithmic Accountability",
-        "Democracy x AI"
-      ],
-      "applicant_types": [
-        "fellow",
-        "independent_builder",
-        "nonprofit",
-        "activist"
-      ],
-      "typical_award_type": "cash_fellowship",
-      "cycle_frequency": "semi-annual",
-      "active_programs_sample": [
-        "Mozilla Technology Fund (MTF)",
-        "Mozilla Fellowships",
-        "Democracy x AI Cohort"
-      ],
-      "agent_search_hints": "MTF awards ~$50K to open-source prototypes; check the Fluxx application portal for open cohorts."
-    },
-    {
-      "id": "funder-open-philanthropy",
-      "name": "Open Philanthropy",
-      "category_id": 3,
-      "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://www.openphilanthropy.org",
-      "funding_portal_url": "https://www.openphilanthropy.org/research/global-catastrophic-risks/potential-risks-advanced-ai/",
-      "discovery_channels": [
-        "https://www.openphilanthropy.org/grants/",
-        "https://www.openphilanthropy.org/research/global-catastrophic-risks/potential-risks-advanced-ai/"
-      ],
-      "focus_areas": [
-        "Technical AI Safety",
-        "AI Governance",
-        "Existential Risk",
-        "Transformative AI Timelines"
-      ],
-      "applicant_types": [
-        "individual",
-        "academic",
-        "nonprofit"
-      ],
-      "typical_award_type": "cash",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Technical AI Safety RFPs",
-        "Early Career AI Safety Researcher Support"
-      ],
-      "agent_search_hints": "Median grant ~$257K. Both scheduled RFPs and ongoing investigative grantmaking. Check grant database for historical funding."
-    },
-    {
-      "id": "funder-vinif",
-      "name": "Quỹ Đổi mới sáng tạo Vingroup (VinIF)",
-      "category_id": 3,
-      "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://vinif.org",
-      "funding_portal_url": "https://vinif.org",
-      "discovery_channels": [
-        "https://vinif.org",
-        "https://oms.vinif.org",
-        "https://vinif.org/program/tai-tro-hoi-nghi-hoi-thao/"
-      ],
-      "focus_areas": [
-        "Khoa học công nghệ trọng điểm",
-        "Mật mã học & An toàn thông tin",
-        "Toán học & Tính toán lượng tử",
-        "Hỗ trợ đại biểu quốc tế"
-      ],
-      "applicant_types": [
-        "vietnamese_researcher",
-        "student",
-        "academic_institution"
-      ],
-      "typical_award_type": "cash_grant",
-      "cycle_frequency": "quarterly",
-      "active_programs_sample": [
-        "Tài trợ tham dự hội nghị / hội thảo quốc tế",
-        "Học bổng Thạc sĩ / Tiến sĩ VinIF",
-        "Câu lạc bộ tài năng nghiên cứu khoa học"
-      ],
-      "agent_search_hints": "Hỗ trợ tài chính (lên đến 50–100 triệu VNĐ) cho nhà nghiên cứu trẻ Việt Nam có thư mời báo cáo/tham dự hội nghị khoa học quốc tế uy tín. Nộp qua scholarship@vinif.org hoặc oms.vinif.org."
-    },
-    {
-      "id": "funder-sff",
-      "name": "Survival and Flourishing Fund (SFF)",
-      "category_id": 3,
-      "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://survivalandflourishing.fund",
-      "funding_portal_url": "https://survivalandflourishing.fund/s-process",
-      "discovery_channels": [
-        "https://survivalandflourishing.fund/s-process"
-      ],
-      "focus_areas": [
-        "Existential Risk",
-        "AI Alignment",
-        "Epistemic Institutions",
-        "Global Catastrophic Risks"
-      ],
-      "applicant_types": [
-        "individual",
-        "early_stage_org",
-        "academic",
-        "nonprofit"
-      ],
-      "typical_award_type": "cash",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "SFF Speculation Grants",
-        "S-Process Main Round"
-      ],
-      "agent_search_hints": "Apply for Speculation Grants ($10K-$150K) on a rolling basis; securing one unlocks participation in full annual S-Process rounds."
-    },
-    {
-      "id": "funder-rockefeller",
-      "name": "The Rockefeller Foundation",
-      "category_id": 3,
-      "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://www.rockefellerfoundation.org",
-      "funding_portal_url": "https://www.rockefellerfoundation.org/fellowships-convenings/",
-      "discovery_channels": [
-        "https://www.rockefellerfoundation.org/fellowships-convenings/bellagio-center/residency-program/"
-      ],
-      "focus_areas": [
-        "Climate AI",
-        "Global Health Data",
-        "Bellagio Center Residencies",
-        "Equitable Tech"
-      ],
-      "applicant_types": [
-        "fellow",
-        "scholar",
-        "practitioner"
-      ],
-      "typical_award_type": "residency_and_stipend",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "Bellagio Center Residency Program",
-        "Rockefeller AI for Climate"
-      ],
-      "agent_search_hints": "Bellagio Center offers prestigious fully funded residencies for scholars and practitioners in Italy."
-    },
-    {
-      "id": "funder-ea-transformative-ai",
-      "name": "Transformative AI Fund (EA Funds)",
-      "category_id": 3,
-      "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://funds.effectivealtruism.org",
-      "funding_portal_url": "https://funds.effectivealtruism.org/funds/transformative-ai",
-      "discovery_channels": [
-        "https://funds.effectivealtruism.org/funds/transformative-ai"
-      ],
-      "focus_areas": [
-        "AI Safety",
-        "AI Alignment",
-        "AI Governance",
-        "Catastrophic Risk Reduction"
-      ],
-      "applicant_types": [
-        "individual",
-        "researcher",
-        "student",
-        "small_org"
-      ],
-      "typical_award_type": "cash",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Transformative AI Grants (Replaced Long-Term Future Fund)"
-      ],
-      "agent_search_hints": "Successor to Long-Term Future Fund (LTFF). Fast turnaround, rolling applications, median $25K-$50K for projects, travel, and stipends."
-    },
-    {
-      "id": "funder-500-global",
-      "name": "500 Global",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://500.co",
-      "funding_portal_url": "https://500.co/founders/flagship",
-      "discovery_channels": [
-        "https://500.co/founders/flagship"
-      ],
-      "focus_areas": [
-        "Global AI Startups",
-        "Fintech AI",
-        "Emerging Market Tech"
-      ],
-      "applicant_types": [
-        "early_stage_startup",
-        "founder"
-      ],
-      "typical_award_type": "seed_equity",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Flagship Accelerator Program ($150K)"
-      ],
-      "agent_search_hints": "Global accelerator providing $150K for 6% equity on rolling application windows."
-    },
-    {
-      "id": "funder-arc-prize",
-      "name": "ARC Prize (Abstraction and Reasoning Corpus)",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://arcprize.org",
-      "funding_portal_url": "https://arcprize.org/",
-      "discovery_channels": [
-        "https://arcprize.org/leaderboard",
-        "https://www.kaggle.com/competitions/arc-prize-2024"
-      ],
-      "focus_areas": [
-        "AGI Benchmarks",
-        "Out-of-Distribution Reasoning",
-        "Program Synthesis",
-        "General Intelligence"
-      ],
-      "applicant_types": [
-        "individual",
-        "team",
-        "independent_researcher"
-      ],
-      "typical_award_type": "prize_competition",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "ARC Prize 2024 / 2025 / 2026"
-      ],
-      "agent_search_hints": "$1M+ prize pool for open-source AI models cracking novel abstract visual logic tasks."
-    },
-    {
-      "id": "funder-iacr",
-      "name": "International Association for Cryptologic Research (IACR)",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://www.iacr.org",
-      "funding_portal_url": "https://www.iacr.org/stipends/",
-      "discovery_channels": [
-        "https://www.iacr.org/stipends/",
-        "https://www.iacr.org/conferences/"
-      ],
-      "focus_areas": [
-        "Post-Quantum Cryptography (PQCrypto)",
-        "Theoretical Cryptography",
-        "Public-Key Cryptography",
-        "Cryptographic Hardware & Embedded Systems"
-      ],
-      "applicant_types": [
-        "student",
-        "early_career_researcher",
-        "academic"
-      ],
-      "typical_award_type": "travel_stipend",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "IACR Student Travel Stipends",
-        "Cryptology Conference Participation Grants"
-      ],
-      "agent_search_hints": "Provides travel stipends ($1,000–$2,500) for students and researchers to present or attend flagship conferences (Crypto, Eurocrypt, Asiacrypt, PQCrypto)."
+      "agent_search_hints": "Funds large institutional initiatives and open calls addressing planetary challenges using AI.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-jump-trading",
@@ -939,66 +346,11 @@
       "active_programs_sample": [
         "Jump Trading Conference Travel Grant"
       ],
-      "agent_search_hints": "Full travel grants covering flight tickets, lodging, visa fees, and daily meal stipends ($1,000–$10,000) for top STEM students attending major research conferences."
-    },
-    {
-      "id": "funder-kaggle",
-      "name": "Kaggle Competitions & Community Grants",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://www.kaggle.com",
-      "funding_portal_url": "https://www.kaggle.com/competitions",
-      "discovery_channels": [
-        "https://www.kaggle.com/competitions",
-        "https://www.kaggle.com/community-grants"
-      ],
-      "focus_areas": [
-        "Applied Machine Learning",
-        "NLP Benchmarks",
-        "Computer Vision",
-        "Code Generation"
-      ],
-      "applicant_types": [
-        "individual",
-        "team",
-        "community"
-      ],
-      "typical_award_type": "prize_pool",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "NeurIPS Competitions on Kaggle",
-        "Research Code Competitions"
-      ],
-      "agent_search_hints": "Check featured and research competition tracks for sponsored prize pools ($50K-$1M)."
-    },
-    {
-      "id": "funder-neurips-competitions",
-      "name": "Neural Information Processing Systems (NeurIPS) Competitions",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://neurips.cc",
-      "funding_portal_url": "https://neurips.cc/Conferences/2024/CompetitionTrack",
-      "discovery_channels": [
-        "https://neurips.cc/Conferences/2024/CompetitionTrack",
-        "https://neurips.cc"
-      ],
-      "focus_areas": [
-        "Algorithmic Competitions",
-        "AI Safety Benchmarks",
-        "Robotics Challenges",
-        "Efficient LLM Inference"
-      ],
-      "applicant_types": [
-        "researcher",
-        "student",
-        "practitioner"
-      ],
-      "typical_award_type": "prizes_and_travel",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "NeurIPS Annual Competition Track"
-      ],
-      "agent_search_hints": "Competitions announced annually in spring; winners receive substantial monetary prizes and travel grants."
+      "agent_search_hints": "Full travel grants covering flight tickets, lodging, visa fees, and daily meal stipends ($1,000\u2013$10,000) for top STEM students attending major research conferences.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-plug-and-play",
@@ -1027,38 +379,11 @@
         "NYC AI Nexus",
         "Enterprise & AI Global Accelerator"
       ],
-      "agent_search_hints": "Often operates state/city-backed innovation hubs with non-dilutive pilot opportunities and corporate sponsors."
-    },
-    {
-      "id": "funder-xprize",
-      "name": "XPRIZE Foundation",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://www.xprize.org",
-      "funding_portal_url": "https://www.xprize.org/competitions",
-      "discovery_channels": [
-        "https://www.xprize.org/competitions"
-      ],
-      "focus_areas": [
-        "Quantum Applications",
-        "Wildfire Detection AI",
-        "Carbon Removal",
-        "Global Grand Challenges"
-      ],
-      "applicant_types": [
-        "open_to_all",
-        "startup",
-        "consortium",
-        "team"
-      ],
-      "typical_award_type": "prize_competition",
-      "cycle_frequency": "multi-year",
-      "active_programs_sample": [
-        "XPRIZE Quantum Applications",
-        "XPRIZE Wildfire",
-        "ARC Prize Collaboration"
-      ],
-      "agent_search_hints": "Multi-million dollar competitions with milestone prizes along the trajectory."
+      "agent_search_hints": "Often operates state/city-backed innovation hubs with non-dilutive pilot opportunities and corporate sponsors.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-y-combinator",
@@ -1087,35 +412,11 @@
       "active_programs_sample": [
         "YC Winter & Summer Batches ($500K standard deal)"
       ],
-      "agent_search_hints": "Check Requests for Startups (RFS) for specific AI verticals YC is eager to fund."
-    },
-    {
-      "id": "funder-aws-research",
-      "name": "AWS Cloud Credit for Research",
-      "category_id": 5,
-      "category": "GPU & Compute Infrastructure Funding",
-      "homepage_url": "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/",
-      "funding_portal_url": "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/",
-      "discovery_channels": [
-        "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/"
-      ],
-      "focus_areas": [
-        "Cloud High Performance Computing",
-        "AI Model Training",
-        "Big Data Analytics",
-        "Serverless AI"
-      ],
-      "applicant_types": [
-        "faculty",
-        "postdoc",
-        "academic_researcher"
-      ],
-      "typical_award_type": "cloud_credits",
-      "cycle_frequency": "quarterly",
-      "active_programs_sample": [
-        "AWS Cloud Credits for Research"
-      ],
-      "agent_search_hints": "Awards promotional credits ranging $5,000 to $50,000+ for projects demonstrating proof of concept on AWS."
+      "agent_search_hints": "Check Requests for Startups (RFS) for specific AI verticals YC is eager to fund.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-nsf-access",
@@ -1147,38 +448,11 @@
         "Accelerate Allocations",
         "Maximize Allocations"
       ],
-      "agent_search_hints": "Primary US academic supercomputer allocation. Explore track requires no formal proposal for rapid compute."
-    },
-    {
-      "id": "funder-nvidia-research",
-      "name": "NVIDIA Research & NVAITC",
-      "category_id": 5,
-      "category": "GPU & Compute Infrastructure Funding",
-      "homepage_url": "https://research.nvidia.com",
-      "funding_portal_url": "https://www.nvidia.com/en-us/research/applied-research-accelerator-program/",
-      "discovery_channels": [
-        "https://www.nvidia.com/en-us/research/applied-research-accelerator-program/",
-        "https://research.nvidia.com/graduate-fellowships"
-      ],
-      "focus_areas": [
-        "GPU Acceleration",
-        "High-Performance Computing",
-        "Omniverse & Robotics",
-        "Generative AI"
-      ],
-      "applicant_types": [
-        "faculty",
-        "phd_student",
-        "academic_lab"
-      ],
-      "typical_award_type": "hardware_and_cash",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "NVIDIA Applied Research Accelerator Program",
-        "NVIDIA Graduate Fellowship",
-        "Hardware Seeding"
-      ],
-      "agent_search_hints": "Provides physical GPUs (e.g. A100, H100 workstation/servers), DGX Cloud credits, and cash awards."
+      "agent_search_hints": "Primary US academic supercomputer allocation. Explore track requires no formal proposal for rapid compute.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-cyclotron-road",
@@ -1205,7 +479,11 @@
       "active_programs_sample": [
         "Cyclotron Road Fellowship ($500K+ value per fellow)"
       ],
-      "agent_search_hints": "Provides two-year fellowship stipends, health benefits, travel, and world-class laboratory facility access at Berkeley Lab."
+      "agent_search_hints": "Provides two-year fellowship stipends, health benefits, travel, and world-class laboratory facility access at Berkeley Lab.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-nsf-mri",
@@ -1233,36 +511,11 @@
         "MRI Track 1 ($100K-$1.4M)",
         "MRI Track 2 ($1.4M-$4M)"
       ],
-      "agent_search_hints": "Institutional submission limits apply (max 4 proposals per university). Submission window mid-October to mid-November."
-    },
-    {
-      "id": "funder-govai",
-      "name": "Governance of Artificial Intelligence (GovAI)",
-      "category_id": 7,
-      "category": "Career Development & Early-Career Researcher Grants",
-      "homepage_url": "https://www.governance.ai",
-      "funding_portal_url": "https://www.governance.ai/opportunities",
-      "discovery_channels": [
-        "https://www.governance.ai/opportunities"
-      ],
-      "focus_areas": [
-        "Frontier AI Policy",
-        "International AI Governance",
-        "Compute Governance",
-        "Antitrust & AI"
-      ],
-      "applicant_types": [
-        "fellow",
-        "postdoc",
-        "policy_researcher"
-      ],
-      "typical_award_type": "fellowship_stipend",
-      "cycle_frequency": "yearly",
-      "active_programs_sample": [
-        "GovAI Summer Fellowship",
-        "GovAI Postdoctoral Fellowship"
-      ],
-      "agent_search_hints": "Stipended fellowships located in Oxford or remote for in-depth AI policy and governance studies."
+      "agent_search_hints": "Institutional submission limits apply (max 4 proposals per university). Submission window mid-October to mid-November.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-harvard-berkman-klein",
@@ -1291,7 +544,11 @@
       "active_programs_sample": [
         "Berkman Klein Fellowship Cohort"
       ],
-      "agent_search_hints": "Annual fellowship application window closes in late autumn for the subsequent academic year."
+      "agent_search_hints": "Annual fellowship application window closes in late autumn for the subsequent academic year.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-iaps",
@@ -1318,35 +575,11 @@
       "active_programs_sample": [
         "IAPS AI Policy Fellowship"
       ],
-      "agent_search_hints": "Offers 3-6 month fellowships with competitive stipends supporting policy research."
-    },
-    {
-      "id": "funder-mats",
-      "name": "ML Alignment & Theory Scholars (MATS)",
-      "category_id": 7,
-      "category": "Career Development & Early-Career Researcher Grants",
-      "homepage_url": "https://matsprogram.org",
-      "funding_portal_url": "https://matsprogram.org/",
-      "discovery_channels": [
-        "https://matsprogram.org/apply"
-      ],
-      "focus_areas": [
-        "AI Safety Research Mentorship",
-        "Interpretability",
-        "Agent Foundations",
-        "Empirical Alignment"
-      ],
-      "applicant_types": [
-        "postdoc",
-        "early_career_researcher",
-        "independent_scholar"
-      ],
-      "typical_award_type": "stipend_and_housing",
-      "cycle_frequency": "semi-annual",
-      "active_programs_sample": [
-        "MATS Summer / Winter Cohorts"
-      ],
-      "agent_search_hints": "Provides full stipends, compute resources, and housing in Berkeley alongside leading safety mentors."
+      "agent_search_hints": "Offers 3-6 month fellowships with competitive stipends supporting policy research.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-mila",
@@ -1375,7 +608,11 @@
         "Mila AI Policy Fellowship",
         "Mila Postdoctoral Fellowships"
       ],
-      "agent_search_hints": "Check Mila AI4Humanity and policy pages for international visiting scholar and fellow calls."
+      "agent_search_hints": "Check Mila AI4Humanity and policy pages for international visiting scholar and fellow calls.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-princeton-citp",
@@ -1404,7 +641,11 @@
         "CITP Non-Resident Fellows",
         "Postdoctoral Research Associate Program"
       ],
-      "agent_search_hints": "Posts fellowship openings in early winter for academic year appointments."
+      "agent_search_hints": "Posts fellowship openings in early winter for academic year appointments.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-stanford-aimi-cdh",
@@ -1434,7 +675,11 @@
         "AIMI Seed Grants",
         "CDH Student Trainee Travel Awards"
       ],
-      "agent_search_hints": "AIMI awards annual seed grants up to $100K for interdisciplinary AI-in-medicine investigations."
+      "agent_search_hints": "AIMI awards annual seed grants up to $100K for interdisciplinary AI-in-medicine investigations.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-berkeley-house-fund",
@@ -1461,219 +706,11 @@
       "active_programs_sample": [
         "BAIR Grant Program ($25K non-dilutive + mentorship)"
       ],
-      "agent_search_hints": "Non-dilutive grants awarded directly to Berkeley AI research projects exploring startup potential."
-    },
-    {
-      "id": "funder-partnership-on-ai",
-      "name": "Partnership on AI (PAI)",
-      "category_id": 8,
-      "category": "Large-Scale Coordinated & Consortium Research",
-      "homepage_url": "https://partnershiponai.org",
-      "funding_portal_url": "https://partnershiponai.org/work/",
-      "discovery_channels": [
-        "https://partnershiponai.org/program/inclusive-research-design/",
-        "https://ethics.nd.edu/fellowships-and-grants/faith-and-ai-rapid-response-grant-delta-partner-program/"
-      ],
-      "focus_areas": [
-        "Inclusive Research Design",
-        "Safe Foundation Model Deployment",
-        "AI Labor Impacts",
-        "Media Integrity"
-      ],
-      "applicant_types": [
-        "consortium",
-        "partner_org",
-        "academic",
-        "civil_society"
-      ],
-      "typical_award_type": "partner_grant",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Inclusive Research Design Grants",
-        "Rapid Response Grant Program (with Notre Dame)"
-      ],
-      "agent_search_hints": "Funds partner institutions and civil society organizations participating in multi-stakeholder research."
-    },
-    {
-      "id": "funder-gitcoin",
-      "name": "Gitcoin Grants",
-      "category_id": 9,
-      "category": "Open Source & Community-Driven Research Funding",
-      "homepage_url": "https://gitcoin.co",
-      "funding_portal_url": "https://explorer.gitcoin.co/",
-      "discovery_channels": [
-        "https://explorer.gitcoin.co/#/rounds"
-      ],
-      "focus_areas": [
-        "Open Source Software",
-        "Decentralized AI",
-        "Public Goods",
-        "Community Science"
-      ],
-      "applicant_types": [
-        "open_source_project",
-        "independent_developer",
-        "collective"
-      ],
-      "typical_award_type": "quadratic_funding",
-      "cycle_frequency": "quarterly",
-      "active_programs_sample": [
-        "Gitcoin Grants Rounds (GG)",
-        "Open Source AI Matching Pools"
-      ],
-      "agent_search_hints": "Community-driven matching pools using Quadratic Funding. Projects receive community donations matched by sponsor treasuries."
-    },
-    {
-      "id": "funder-ieee-cis-ias",
-      "name": "IEEE (Computational Intelligence & Industry Applications Societies)",
-      "category_id": 9,
-      "category": "Open Source & Community-Driven Research Funding",
-      "homepage_url": "https://cis.ieee.org",
-      "funding_portal_url": "https://cis.ieee.org/activities/educational-activites/research-grants",
-      "discovery_channels": [
-        "https://cis.ieee.org/activities/educational-activites/research-grants",
-        "https://epics.ieee.org/get-involved/"
-      ],
-      "focus_areas": [
-        "Neural Networks",
-        "Evolutionary Computation",
-        "Fuzzy Systems",
-        "EPICS Community Engineering"
-      ],
-      "applicant_types": [
-        "graduate_student",
-        "faculty",
-        "community_team"
-      ],
-      "typical_award_type": "cash_grant",
-      "cycle_frequency": "semi-annual",
-      "active_programs_sample": [
-        "CIS Graduate Research Grants",
-        "EPICS in IEEE Call for Proposals"
-      ],
-      "agent_search_hints": "Annual deadlines in spring/fall for graduate research and humanitarian engineering community pilots."
-    },
-    {
-      "id": "funder-kyber-network",
-      "name": "Kyber Network & Vietnam Web3 Innovation Grants",
-      "category_id": 9,
-      "category": "Open Source & Community-Driven Research Funding",
-      "homepage_url": "https://kyber.network",
-      "funding_portal_url": "https://kyber.org",
-      "discovery_channels": [
-        "https://kyber.network",
-        "https://kyber.org",
-        "https://github.com/KyberNetwork"
-      ],
-      "focus_areas": [
-        "Web3 Cryptography",
-        "Smart Contract Security",
-        "Decentralized Infrastructure",
-        "Vietnamese Developer Ecosystem"
-      ],
-      "applicant_types": [
-        "independent_developer",
-        "vietnamese_researcher",
-        "open_source_contributor"
-      ],
-      "typical_award_type": "cash_and_crypto",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Kyber Ecosystem Grants",
-        "Vietnam Blockchain Talent Sponsorships"
-      ],
-      "agent_search_hints": "Hỗ trợ tài năng trẻ Việt Nam trong lĩnh vực blockchain và mật mã học tham gia các vũ đài và hội thảo công nghệ toàn cầu."
-    },
-    {
-      "id": "funder-otf",
-      "name": "Open Technology Fund (OTF)",
-      "category_id": 9,
-      "category": "Open Source & Community-Driven Research Funding",
-      "homepage_url": "https://www.opentech.fund",
-      "funding_portal_url": "https://www.opentech.fund/funds/internet-freedom-fund/",
-      "discovery_channels": [
-        "https://www.opentech.fund/funds/internet-freedom-fund/",
-        "https://www.opentech.fund/funds/rapid-response-fund/"
-      ],
-      "focus_areas": [
-        "Internet Freedom",
-        "Anti-Censorship",
-        "Privacy-Preserving Tech",
-        "Open Source Security"
-      ],
-      "applicant_types": [
-        "individual",
-        "open_source_collective",
-        "nonprofit",
-        "company"
-      ],
-      "typical_award_type": "cash",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Internet Freedom Fund ($10K-$900K)",
-        "Rapid Response Fund"
-      ],
-      "agent_search_hints": "Year-round rolling submissions via 2-stage concept note. Focuses on open-source code and public deliverables."
-    },
-    {
-      "id": "funder-researchhub",
-      "name": "ResearchHub Foundation",
-      "category_id": 9,
-      "category": "Open Source & Community-Driven Research Funding",
-      "homepage_url": "https://www.researchhub.com",
-      "funding_portal_url": "https://www.researchhub.com/bounties",
-      "discovery_channels": [
-        "https://www.researchhub.com/bounties"
-      ],
-      "focus_areas": [
-        "Open Science",
-        "Reproducibility",
-        "Peer Review",
-        "Decentralized Research Bounties"
-      ],
-      "applicant_types": [
-        "individual",
-        "academic",
-        "student"
-      ],
-      "typical_award_type": "crypto_bounty",
-      "cycle_frequency": "continuous",
-      "active_programs_sample": [
-        "ResearchHub Paper Bounties",
-        "Replication Grants"
-      ],
-      "agent_search_hints": "Micro-grants and bounties awarded directly for answering research questions, replicating papers, or peer review."
-    },
-    {
-      "id": "funder-linux-foundation",
-      "name": "The Linux Foundation & CNCF",
-      "category_id": 9,
-      "category": "Open Source & Community-Driven Research Funding",
-      "homepage_url": "https://www.linuxfoundation.org",
-      "funding_portal_url": "https://www.linuxfoundation.org/projects",
-      "discovery_channels": [
-        "https://training.linuxfoundation.org/about/scholarships/",
-        "https://www.cncf-education.org/grants-guidelines"
-      ],
-      "focus_areas": [
-        "Cloud Native Infrastructure",
-        "Open Source AI/ML",
-        "PyTorch Ecosystem",
-        "Kernel Security"
-      ],
-      "applicant_types": [
-        "student",
-        "open_source_contributor",
-        "maintainer"
-      ],
-      "typical_award_type": "travel_scholarship_and_grants",
-      "cycle_frequency": "rolling",
-      "active_programs_sample": [
-        "Linux Foundation LiFT Scholarships",
-        "CNCF Community Grants",
-        "Dan Kohn Travel Grants"
-      ],
-      "agent_search_hints": "Monitor training/scholarship pages and CNCF grant guidelines for community travel and maintenance funds."
+      "agent_search_hints": "Non-dilutive grants awarded directly to Berkeley AI research projects exploring startup potential.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grants-gov",
@@ -1703,7 +740,11 @@
       "active_programs_sample": [
         "Federal Opportunities across NSF, DOE, NIH, DARPA, NIST"
       ],
-      "agent_search_hints": "Use search-grants API or web portal with keyword \"artificial intelligence\" and status \"Forecasted|Posted\"."
+      "agent_search_hints": "Use search-grants API or web portal with keyword \"artificial intelligence\" and status \"Forecasted|Posted\".",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-sam-gov",
@@ -1733,7 +774,11 @@
         "Air Force Research Lab (AFRL) Solicitations",
         "ONR Solicitations"
       ],
-      "agent_search_hints": "The official registry for Broad Agency Announcements (BAA) and federal procurement solicitations."
+      "agent_search_hints": "The official registry for Broad Agency Announcements (BAA) and federal procurement solicitations.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-sam-assistance-listings",
@@ -1750,7 +795,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-usaspending",
@@ -1767,7 +816,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_api. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_api. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-challenge-gov",
@@ -1784,7 +837,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_redirect. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_redirect. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-sbir-gov",
@@ -1801,7 +858,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-sbir-topics",
@@ -1818,7 +879,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nsf-seed-fund",
@@ -1835,7 +900,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nih-seed",
@@ -1852,7 +921,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nih-guide",
@@ -1869,7 +942,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nih-highlighted-topics",
@@ -1886,7 +963,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-doe-sbir",
@@ -1903,7 +984,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-dod-dsip",
@@ -1920,7 +1005,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-darpa-small-business",
@@ -1937,7 +1026,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-afwerx",
@@ -1954,7 +1047,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nasa-sbir",
@@ -1971,7 +1068,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-usda-nifa-sbir",
@@ -1988,7 +1089,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-ed-ies-sbir",
@@ -2005,7 +1110,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-epa-sbir",
@@ -2022,7 +1131,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-dot-volpe-sbir",
@@ -2039,7 +1152,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-noaa-sbir",
@@ -2056,7 +1173,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-dhs-sbir",
@@ -2073,7 +1194,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-arpa-e-exchange",
@@ -2090,7 +1215,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_portal. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_portal. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-arpa-h-open-funding",
@@ -2107,7 +1236,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-barda-drive-ezbaa",
@@ -2124,7 +1257,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-diu",
@@ -2141,7 +1278,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-cdmrp",
@@ -2158,7 +1299,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-america-makes",
@@ -2175,7 +1320,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-sba-grants",
@@ -2192,7 +1341,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-sba-step",
@@ -2209,7 +1362,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-sba-growth-accelerator",
@@ -2226,7 +1383,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-eda-build-to-scale",
@@ -2243,7 +1404,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-mbda-grants",
@@ -2260,7 +1425,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-sbdc",
@@ -2277,7 +1446,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-apex-accelerators",
@@ -2294,7 +1467,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nist-mep",
@@ -2311,7 +1488,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-manufacturing-gov",
@@ -2328,7 +1509,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nsf-i-corps",
@@ -2345,7 +1530,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-doe-energy-i-corps",
@@ -2362,7 +1551,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-venturewell-e-team",
@@ -2379,7 +1572,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nsf-engines",
@@ -2396,7 +1593,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-doe-leep",
@@ -2413,7 +1614,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-innovation-crossroads",
@@ -2430,7 +1635,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-west-gate",
@@ -2447,7 +1656,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-cradle-to-commerce",
@@ -2464,7 +1677,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nm-leep",
@@ -2481,7 +1698,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-activate",
@@ -2498,58 +1719,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
-    },
-    {
-      "id": "funder-grant-finder-breakthrough-energy-fellows",
-      "name": "Breakthrough Energy Fellows",
-      "category_id": 6,
-      "category": "Academic Lab & Infrastructure Grants",
-      "homepage_url": "https://www.breakthroughenergy.org/fellows-projects",
-      "funding_portal_url": "https://www.breakthroughenergy.org/fellows-projects",
-      "discovery_channels": [
-        "https://www.breakthroughenergy.org/fellows-projects"
-      ],
-      "focus_areas": [],
-      "applicant_types": [],
-      "typical_award_type": "unknown",
-      "cycle_frequency": "unknown",
-      "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
-    },
-    {
-      "id": "funder-grant-finder-thiel-fellowship",
-      "name": "Thiel Fellowship",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://thielfellowship.org/",
-      "funding_portal_url": "https://thielfellowship.org/",
-      "discovery_channels": [
-        "https://thielfellowship.org/"
-      ],
-      "focus_areas": [],
-      "applicant_types": [],
-      "typical_award_type": "unknown",
-      "cycle_frequency": "unknown",
-      "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
-    },
-    {
-      "id": "funder-grant-finder-osv-fellowships",
-      "name": "O'Shaughnessy Fellowships",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://osv.llc/fellowships",
-      "funding_portal_url": "https://osv.llc/fellowships",
-      "discovery_channels": [
-        "https://osv.llc/fellowships"
-      ],
-      "focus_areas": [],
-      "applicant_types": [],
-      "typical_award_type": "unknown",
-      "cycle_frequency": "unknown",
-      "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-spc-founder-fellowship",
@@ -2566,24 +1740,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
-    },
-    {
-      "id": "funder-grant-finder-z-fellows",
-      "name": "Z Fellows",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://www.zfellows.com/",
-      "funding_portal_url": "https://www.zfellows.com/",
-      "discovery_channels": [
-        "https://www.zfellows.com/"
-      ],
-      "focus_areas": [],
-      "applicant_types": [],
-      "typical_award_type": "unknown",
-      "cycle_frequency": "unknown",
-      "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-neo",
@@ -2600,7 +1761,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-hf0",
@@ -2617,24 +1782,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
-    },
-    {
-      "id": "funder-grant-finder-1517-fund",
-      "name": "1517 Fund / Medici Grants",
-      "category_id": 4,
-      "category": "Non-Traditional Funding",
-      "homepage_url": "https://www.1517fund.com/",
-      "funding_portal_url": "https://www.1517fund.com/",
-      "discovery_channels": [
-        "https://www.1517fund.com/"
-      ],
-      "focus_areas": [],
-      "applicant_types": [],
-      "typical_award_type": "unknown",
-      "cycle_frequency": "unknown",
-      "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nyc-founder-fellowship",
@@ -2651,7 +1803,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-candid",
@@ -2668,7 +1824,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-grantforward",
@@ -2685,7 +1845,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-pivot-rp",
@@ -2702,7 +1866,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-opengrants-api-docs",
@@ -2719,7 +1887,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_api. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; web_api. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-grantwatch",
@@ -2736,7 +1908,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-instrumentl",
@@ -2753,7 +1929,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; commercial_database. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-doe-eere-funding-opportunities",
@@ -2770,7 +1950,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-eere-exchange-foa-search",
@@ -2787,7 +1971,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_index. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_index. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nist-sbir",
@@ -2804,7 +1992,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nist-tpo-fy26-nofo-research-areas",
@@ -2821,7 +2013,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-joint-office-ev-funding-opportunities",
@@ -2838,7 +2034,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-joint-office-funding-programs",
@@ -2855,7 +2055,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_index. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_index. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-fhwa-nevi-program",
@@ -2872,7 +2076,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-afdc-nevi-law",
@@ -2889,7 +2097,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-california-grants-portal",
@@ -2906,7 +2118,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_index. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_index. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-california-energy-commission-funding",
@@ -2923,7 +2139,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_index. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_index. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-accelerate-california",
@@ -2940,7 +2160,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-caltestbed",
@@ -2957,7 +2181,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; source_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-calseed-how-to-apply",
@@ -2974,7 +2202,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-california-go-biz-incentives",
@@ -2991,7 +2223,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-california-competes-tax-credit",
@@ -3008,7 +2244,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-caeatfa-ste-program",
@@ -3025,7 +2265,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-arizona-commerce-incentives",
@@ -3042,7 +2286,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-texas-governor-business-incentives",
@@ -3059,7 +2307,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-nevada-goed-incentives",
@@ -3076,7 +2328,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-florida-business-incentives",
@@ -3093,7 +2349,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-selectflorida",
@@ -3110,7 +2370,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     },
     {
       "id": "funder-grant-finder-floridacommerce-incentives-portal",
@@ -3127,7 +2391,11 @@
       "typical_award_type": "unknown",
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms."
+      "agent_search_hints": "Imported from grant-finder sources.json; public_page. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "NORTH_AMERICA",
+      "eligible_regions": [
+        "NORTH_AMERICA"
+      ]
     }
   ]
 }

@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-10-05T03:12:44.480389+00:00",
+  "total_regions": 10,
+  "total_grants": 5,
+  "total_funders": 163,
+  "regions": {
+    "east-asia": {
+      "region_code": "EAST_ASIA",
+      "region_name": "East Asia Grants",
+      "grants_count": 0,
+      "funders_count": 3,
+      "grant_ids": []
+    },
+    "europe": {
+      "region_code": "EUROPE",
+      "region_name": "Europe & United Kingdom Grants",
+      "grants_count": 0,
+      "funders_count": 5,
+      "grant_ids": []
+    },
+    "global": {
+      "region_code": "GLOBAL",
+      "region_name": "Global / Worldwide Grants",
+      "grants_count": 2,
+      "funders_count": 36,
+      "grant_ids": [
+        "grant-sff-spec-202610",
+        "grant-otf-iff-202610"
+      ]
+    },
+    "latam": {
+      "region_code": "LATAM",
+      "region_name": "Latin America & Caribbean Grants",
+      "grants_count": 0,
+      "funders_count": 3,
+      "grant_ids": []
+    },
+    "mena": {
+      "region_code": "MENA",
+      "region_name": "Middle East & North Africa Grants",
+      "grants_count": 0,
+      "funders_count": 3,
+      "grant_ids": []
+    },
+    "north-america": {
+      "region_code": "NORTH_AMERICA",
+      "region_name": "North America Grants",
+      "grants_count": 1,
+      "funders_count": 100,
+      "grant_ids": [
+        "grant-nsf-mri-202611"
+      ]
+    },
+    "oceania": {
+      "region_code": "OCEANIA",
+      "region_name": "Oceania Grants",
+      "grants_count": 0,
+      "funders_count": 3,
+      "grant_ids": []
+    },
+    "sea": {
+      "region_code": "SEA",
+      "region_name": "Southeast Asia Grants",
+      "grants_count": 2,
+      "funders_count": 5,
+      "grant_ids": [
+        "grant-vinif-research-2026",
+        "grant-kyber-sea-web3-2026"
+      ]
+    },
+    "south-asia": {
+      "region_code": "SOUTH_ASIA",
+      "region_name": "South Asia Grants",
+      "grants_count": 0,
+      "funders_count": 2,
+      "grant_ids": []
+    },
+    "sub-saharan-africa": {
+      "region_code": "SUB_SAHARAN_AFRICA",
+      "region_name": "Sub-Saharan Africa Grants",
+      "grants_count": 0,
+      "funders_count": 3,
+      "grant_ids": []
+    }
+  }
+}

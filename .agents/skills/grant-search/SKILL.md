@@ -327,7 +327,7 @@ After each batch, tell the user how many entries were added to `potential_new_gr
 
 ## Search Execution
 
-1. **Systematic approach**: Load `funder_websites.json` to iterate through all curated funder portals, discovery channels, and search queries sequentially across categories 1–10
+1. **Systematic approach**: Load regional `grants/<region>/funders.json` (or scan all regions) to iterate through all curated funder portals, discovery channels, and search queries sequentially across categories 1–10
 2. **Parallel where possible**: Multiple searches simultaneously
 3. **Document as you go**: Append to `potential_new_grants.json` as you discover (don't batch at end)
 4. **Capture metadata**: Note search queries and sources in `notes` for reproducibility

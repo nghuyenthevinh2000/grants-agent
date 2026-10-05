@@ -14,40 +14,48 @@ from collections import defaultdict
 from urllib.parse import urlparse
 
 
-def resolve_funder_file_path(path_str: str = "grants/funder_websites.json") -> Path:
-    """Resolve funder_websites.json checking cwd, project root, or parent folders."""
-    p = Path(path_str)
-    if p.exists():
-        return p
+def resolve_funder_file_paths(path_str: str = None) -> List[Path]:
+    """Resolve funder_websites.json or scan all regional grants/*/funders.json."""
+    if path_str:
+        p = Path(path_str)
+        if p.exists():
+            return [p.resolve()]
+        if (Path("grants") / path_str).exists():
+            return [(Path("grants") / path_str).resolve()]
 
+    # Check for regional funders.json files across grants/*/funders.json
     candidates = [
-        Path("funder_websites.json"),
-        Path("grants/funder_websites.json"),
-        Path(__file__).resolve().parent.parent / "funder_websites.json",
-        Path(__file__).resolve().parent.parent.parent.parent.parent / "grants/funder_websites.json",
-        Path(__file__).resolve().parent.parent / "../../grants/funder_websites.json",
+        Path("grants"),
+        Path(__file__).resolve().parent.parent.parent.parent.parent / "grants",
+        Path(__file__).resolve().parent.parent / "../../grants",
     ]
     for c in candidates:
-        if c.exists():
-            return c.resolve()
-    return p
+        if c.exists() and c.is_dir():
+            regional_files = sorted(c.glob("*/funders.json"))
+            if regional_files:
+                return [f.resolve() for f in regional_files]
+
+    return [Path(path_str)] if path_str else []
 
 
 class FunderDuplicateChecker:
-    """Detects duplicates and overlaps among funders in funder_websites.json."""
+    """Detects duplicates and overlaps among funders across regional funders.json."""
 
-    def __init__(self, file_path: str = "grants/funder_websites.json"):
-        self.file_path = resolve_funder_file_path(file_path)
-        self.data: Dict = {}
+    def __init__(self, file_path: str = None):
+        self.file_paths = resolve_funder_file_paths(file_path)
         self.funders: List[Dict] = []
         self._load()
 
     def _load(self):
-        if not self.file_path.exists():
-            raise FileNotFoundError(f"File not found: {self.file_path}")
-        with open(self.file_path, "r", encoding="utf-8") as f:
-            self.data = json.load(f)
-        self.funders = self.data.get("funders", [])
+        if not self.file_paths:
+            raise FileNotFoundError("No funder files found.")
+        self.funders = []
+        for p in self.file_paths:
+            if not p.exists():
+                raise FileNotFoundError(f"File not found: {p}")
+            with open(p, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            self.funders.extend(data.get("funders", []))
 
     @staticmethod
     def _normalize_name(name: str) -> str:
@@ -92,7 +100,7 @@ class FunderDuplicateChecker:
         """Run all duplicate and overlap checks."""
         report = {
             "total_funders": len(self.funders),
-            "file": str(self.file_path),
+            "files": [str(p) for p in self.file_paths],
             "exact_id_duplicates": [],
             "exact_name_duplicates": [],
             "exact_url_duplicates": [],
@@ -210,7 +218,8 @@ class FunderDuplicateChecker:
         print("=" * 70)
         print("🔍 FUNDER DUPLICATION REPORT")
         print("=" * 70)
-        print(f"Target File   : {report['file']}")
+        files_desc = ", ".join(Path(f).parent.name + "/funders.json" for f in report['files']) if len(report['files']) > 1 else (report['files'][0] if report['files'] else 'None')
+        print(f"Target Files  : {files_desc}")
         print(f"Total Funders : {report['total_funders']}")
         print()
         print("CRITICAL ISSUES (Exact Duplicates):")
@@ -275,9 +284,9 @@ class FunderDuplicateChecker:
 
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description="Check for duplicates in funder_websites.json")
-    parser.add_argument("file", nargs="?", default="grants/funder_websites.json",
-                        help="Path to funder_websites.json (default: grants/funder_websites.json)")
+    parser = argparse.ArgumentParser(description="Check for duplicates across regional funders.json files")
+    parser.add_argument("file", nargs="?", default=None,
+                        help="Path to funder JSON or omit to scan all grants/*/funders.json")
     parser.add_argument("--fuzzy-threshold", type=float, default=0.82,
                         help="Similarity threshold for fuzzy name matching (0.0 to 1.0, default: 0.82)")
     parser.add_argument("--quiet", action="store_true", help="Only show summary, omit detailed list")

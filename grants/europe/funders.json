@@ -1,0 +1,183 @@
+{
+  "region": "EUROPE",
+  "name": "EUROPE Grant Funders & Discovery Channels",
+  "last_updated": "2026-10-05",
+  "total_funders": 5,
+  "funders": [
+    {
+      "id": "funder-eu-horizon",
+      "name": "European Commission - Horizon Europe",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "homepage_url": "https://ec.europa.eu/info/research-and-innovation_en",
+      "funding_portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/horizon",
+      "discovery_channels": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?order=DESC&pageNumber=1&pageSize=50&sortBy=startDate&isExactMatch=true&status=31094501,31094502&programmePeriod=2021%20-%202027&frameworkProgramme=43108390"
+      ],
+      "focus_areas": [
+        "Trustworthy AI",
+        "Green AI",
+        "Robotics",
+        "Industrial AI",
+        "Data Spaces",
+        "Next-Gen AI Agents"
+      ],
+      "applicant_types": [
+        "consortium",
+        "academic",
+        "industry",
+        "sme"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "HORIZON-CL4 Digital, Industry and Space",
+        "European Research Council (ERC) Grants",
+        "Marie Curie Actions"
+      ],
+      "agent_search_hints": "Search EU Funding & Tenders Portal filtering by Framework Programme: Horizon Europe and Cluster 4 (HORIZON-CL4).",
+      "hq_region": "EUROPE",
+      "eligible_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "id": "funder-ukri",
+      "name": "UK Research and Innovation (UKRI / EPSRC)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "EUROPE",
+      "eligible_regions": [
+        "EUROPE"
+      ],
+      "homepage_url": "https://www.ukri.org",
+      "funding_portal_url": "https://www.ukri.org/opportunity/",
+      "discovery_channels": [
+        "https://www.ukri.org/opportunity/",
+        "https://www.ukri.org/councils/epsrc/"
+      ],
+      "focus_areas": [
+        "Artificial Intelligence",
+        "Quantum Technologies",
+        "Responsible Tech",
+        "Engineering"
+      ],
+      "applicant_types": [
+        "academic",
+        "research_institution",
+        "consortium"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "EPSRC AI Hubs",
+        "Turing AI Fellowships",
+        "UKRI Future Leaders Fellowships"
+      ],
+      "agent_search_hints": "Filter UKRI funding finder by EPSRC and keyword 'Artificial Intelligence'."
+    },
+    {
+      "id": "funder-wellcome-trust",
+      "name": "Wellcome Trust",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "hq_region": "EUROPE",
+      "eligible_regions": [
+        "EUROPE",
+        "GLOBAL"
+      ],
+      "homepage_url": "https://wellcome.org",
+      "funding_portal_url": "https://wellcome.org/grant-funding",
+      "discovery_channels": [
+        "https://wellcome.org/grant-funding/schemes",
+        "https://wellcome.org/what-we-do/data-science-health"
+      ],
+      "focus_areas": [
+        "Digital Health AI",
+        "Biomedical Data Science",
+        "Mental Health Tech",
+        "Climate Health"
+      ],
+      "applicant_types": [
+        "academic",
+        "nonprofit",
+        "researcher"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "Wellcome Discovery Awards",
+        "Early-Career Awards",
+        "Digital Technology Development Grants"
+      ],
+      "agent_search_hints": "Check Discovery and Early-Career schemes for technology and digital bio platforms."
+    },
+    {
+      "id": "funder-erc",
+      "name": "European Research Council (ERC)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "EUROPE",
+      "eligible_regions": [
+        "EUROPE"
+      ],
+      "homepage_url": "https://erc.europa.eu",
+      "funding_portal_url": "https://erc.europa.eu/apply-grant",
+      "discovery_channels": [
+        "https://erc.europa.eu/apply-grant",
+        "https://ec.europa.eu/info/funding-tenders/opportunities/portal"
+      ],
+      "focus_areas": [
+        "Frontier Science",
+        "Mathematical AI",
+        "Quantum Computing",
+        "Deep Interdisciplinary"
+      ],
+      "applicant_types": [
+        "academic",
+        "researcher",
+        "consortium"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "ERC Starting Grants",
+        "ERC Consolidator Grants",
+        "ERC Synergy Grants"
+      ],
+      "agent_search_hints": "Annual cycles for Starting Grants (2-7 yrs post PhD) and Consolidator Grants (7-12 yrs post PhD)."
+    },
+    {
+      "id": "funder-snf-ch",
+      "name": "Swiss National Science Foundation (SNSF)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "EUROPE",
+      "eligible_regions": [
+        "EUROPE"
+      ],
+      "homepage_url": "https://www.snf.ch",
+      "funding_portal_url": "https://www.snf.ch/en/funding",
+      "discovery_channels": [
+        "https://www.snf.ch/en/funding/find-funding"
+      ],
+      "focus_areas": [
+        "Data Science",
+        "Machine Learning",
+        "Quantum Science",
+        "Computational Biology"
+      ],
+      "applicant_types": [
+        "academic",
+        "researcher"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "SNSF Starting Grants",
+        "National Research Programmes (NRP 77 Digital Transformation)"
+      ],
+      "agent_search_hints": "Check bilateral Swiss programs and project funding in mathematics and CS."
+    }
+  ]
+}

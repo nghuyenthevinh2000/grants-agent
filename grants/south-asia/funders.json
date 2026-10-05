@@ -1,0 +1,74 @@
+{
+  "region": "SOUTH_ASIA",
+  "name": "SOUTH_ASIA Grant Funders & Discovery Channels",
+  "last_updated": "2026-10-05",
+  "total_funders": 2,
+  "funders": [
+    {
+      "id": "funder-serb-india",
+      "name": "Science and Engineering Research Board (SERB / DST India)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "SOUTH_ASIA",
+      "eligible_regions": [
+        "SOUTH_ASIA"
+      ],
+      "homepage_url": "https://serbonline.in",
+      "funding_portal_url": "https://serbonline.in/SERB/HomePage",
+      "discovery_channels": [
+        "https://dst.gov.in/call-for-proposals",
+        "https://serbonline.in/SERB/HomePage"
+      ],
+      "focus_areas": [
+        "Applied Machine Learning",
+        "Computational Science",
+        "Electronics & Cyber Physical Systems"
+      ],
+      "applicant_types": [
+        "academic",
+        "research_institution"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "Core Research Grant (CRG)",
+        "VAJRA Faculty Scheme for Global Scientists",
+        "National Mission on Interdisciplinary Cyber-Physical Systems"
+      ],
+      "agent_search_hints": "VAJRA scheme funds overseas faculty / researchers to collaborate with Indian labs."
+    },
+    {
+      "id": "funder-birac-india",
+      "name": "Biotechnology Industry Research Assistance Council (BIRAC)",
+      "category_id": 1,
+      "category": "Government & Institutional Funding",
+      "hq_region": "SOUTH_ASIA",
+      "eligible_regions": [
+        "SOUTH_ASIA"
+      ],
+      "homepage_url": "https://birac.nic.in",
+      "funding_portal_url": "https://birac.nic.in/callforproposals.php",
+      "discovery_channels": [
+        "https://birac.nic.in/callforproposals.php"
+      ],
+      "focus_areas": [
+        "Healthcare AI",
+        "Computational Genomics",
+        "Bioinformatics",
+        "Diagnostics"
+      ],
+      "applicant_types": [
+        "startup",
+        "academic",
+        "industry"
+      ],
+      "typical_award_type": "cash",
+      "cycle_frequency": "quarterly",
+      "active_programs_sample": [
+        "Biotechnology Ignition Grant (BIG)",
+        "Social Innovation Immersion Program (SIIP)"
+      ],
+      "agent_search_hints": "BIG grant is one of the largest early-stage startup grants in India (up to \u20b950 Lakhs)."
+    }
+  ]
+}
