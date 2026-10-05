@@ -2,7 +2,7 @@
   "region": "GLOBAL",
   "name": "GLOBAL Grant Funders & Discovery Channels",
   "last_updated": "2026-10-05",
-  "total_funders": 36,
+  "total_funders": 46,
   "funders": [
     {
       "id": "funder-anthropic",
@@ -504,7 +504,7 @@
       "name": "Transformative AI Fund (EA Funds)",
       "category_id": 3,
       "category": "Philanthropic & Mission-Driven Funding",
-      "homepage_url": "https://funds.effectivealtruism.org",
+      "homepage_url": "https://funds.effectivealtruism.org/funds/transformative-ai",
       "funding_portal_url": "https://funds.effectivealtruism.org/funds/transformative-ai",
       "discovery_channels": [
         "https://funds.effectivealtruism.org/funds/transformative-ai"
@@ -623,7 +623,7 @@
         "IACR Student Travel Stipends",
         "Cryptology Conference Participation Grants"
       ],
-      "agent_search_hints": "Provides travel stipends ($1,000\u2013$2,500) for students and researchers to present or attend flagship conferences (Crypto, Eurocrypt, Asiacrypt, PQCrypto).",
+      "agent_search_hints": "Provides travel stipends ($1,000–$2,500) for students and researchers to present or attend flagship conferences (Crypto, Eurocrypt, Asiacrypt, PQCrypto).",
       "hq_region": "GLOBAL",
       "eligible_regions": [
         "GLOBAL"
@@ -1168,6 +1168,359 @@
       "cycle_frequency": "unknown",
       "active_programs_sample": [],
       "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-bluedot-impact",
+      "name": "BlueDot Impact",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://bluedot.org",
+      "funding_portal_url": "https://bluedot.org/grants/rapid",
+      "discovery_channels": [
+        "https://bluedot.org/grants/rapid",
+        "https://bluedot.org/grants/career-transition",
+        "https://forum.effectivealtruism.org/users/harrywaterman"
+      ],
+      "focus_areas": [
+        "Catastrophic AI Risk",
+        "Technical AI Safety",
+        "AI Governance",
+        "Biosecurity & Pandemics",
+        "Events and Community"
+      ],
+      "applicant_types": [
+        "individual",
+        "independent_researcher",
+        "student",
+        "community_organizer"
+      ],
+      "typical_award_type": "cash_grant",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "Rapid Grants ( - ,000)",
+        "Request for Events (RFE) AI Risk Events",
+        "Career Transition Grants"
+      ],
+      "agent_search_hints": "Fast-turnaround micro-grants up to K for time, events, compute, and career pivots in AI safety or biosecurity.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-ea-ltff",
+      "name": "Long-Term Future Fund (LTFF / EA Funds)",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://funds.effectivealtruism.org/funds/long-term-future",
+      "funding_portal_url": "https://funds.effectivealtruism.org/funds/long-term-future",
+      "discovery_channels": [
+        "https://funds.effectivealtruism.org/funds/long-term-future",
+        "https://forum.effectivealtruism.org/topics/long-term-future-fund"
+      ],
+      "focus_areas": [
+        "AI Alignment & Catastrophic AI Risk",
+        "Biosecurity & Pandemic Preparedness",
+        "Global Catastrophic Risks",
+        "Macrostrategy & Forecasting",
+        "Independent Research & Career Transitions"
+      ],
+      "applicant_types": [
+        "individual",
+        "independent_researcher",
+        "academic",
+        "nonprofit",
+        "student"
+      ],
+      "typical_award_type": "cash_grant",
+      "cycle_frequency": "continuous",
+      "active_programs_sample": [
+        "LTFF Rapid Grants (K - K+)",
+        "Independent Alignment Researcher Stipends",
+        "AI Safety Reading Groups & University Initiatives"
+      ],
+      "agent_search_hints": "Flagship EA grantmaker for existential risk and AI safety; funds independent researchers, upskilling, and grassroots initiatives.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-ea-infrastructure-fund",
+      "name": "Effective Altruism Infrastructure Fund (EAIF)",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://funds.effectivealtruism.org/funds/ea-infrastructure",
+      "funding_portal_url": "https://funds.effectivealtruism.org/funds/ea-infrastructure",
+      "discovery_channels": [
+        "https://funds.effectivealtruism.org/funds/ea-infrastructure",
+        "https://forum.effectivealtruism.org/topics/ea-infrastructure-fund"
+      ],
+      "focus_areas": [
+        "Local & University Community Building",
+        "EA Conferences & EAGx Events",
+        "Movement Infrastructure & Outreach",
+        "Cause Exploration & Media"
+      ],
+      "applicant_types": [
+        "community_organizer",
+        "student",
+        "individual",
+        "nonprofit"
+      ],
+      "typical_award_type": "cash_grant",
+      "cycle_frequency": "continuous",
+      "active_programs_sample": [
+        "Local Group Organizer Stipends",
+        "EAGx Conference Grants",
+        "University Community Building Grants"
+      ],
+      "agent_search_hints": "Specifically funds organizers of local and university groups, retreats, events, and educational outreach.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-cais",
+      "name": "Center for AI Safety (CAIS)",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://www.safe.ai",
+      "funding_portal_url": "https://www.safe.ai/research",
+      "discovery_channels": [
+        "https://www.safe.ai",
+        "https://www.safe.ai/compute-cluster",
+        "https://www.safe.ai/fellowship"
+      ],
+      "focus_areas": [
+        "Technical AI Safety",
+        "AI Red-Teaming & Benchmarks",
+        "Compute Infrastructure for Safety Researchers",
+        "Philosophy & Governance of AI"
+      ],
+      "applicant_types": [
+        "academic",
+        "independent_researcher",
+        "graduate_student",
+        "fellow"
+      ],
+      "typical_award_type": "compute_and_stipend",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "CAIS Compute Cluster Allocation",
+        "AI Safety Fellowships",
+        "Philosophy of AI Fellowships"
+      ],
+      "agent_search_hints": "Provides major academic GPU clusters and fellowships specifically for AI safety and alignment research.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-lightspeed-grants",
+      "name": "Lightspeed Grants",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://lightspeedgrants.org",
+      "funding_portal_url": "https://lightspeedgrants.org",
+      "discovery_channels": [
+        "https://lightspeedgrants.org",
+        "https://forum.effectivealtruism.org/posts/k8nZ3e23NspqAkm5m/announcing-lightspeed-grants"
+      ],
+      "focus_areas": [
+        "High-Urgency AI Safety Projects",
+        "Time-Sensitive Catastrophic Risk Initiatives",
+        "Regrantor-Driven Fast Funding",
+        "Biosecurity & Movement Infrastructure"
+      ],
+      "applicant_types": [
+        "individual",
+        "researcher",
+        "startup_founder",
+        "community_organizer"
+      ],
+      "typical_award_type": "cash_grant",
+      "cycle_frequency": "continuous",
+      "active_programs_sample": [
+        "Lightspeed Rapid Regranting (K - K)"
+      ],
+      "agent_search_hints": "Ultra-fast decisions (often 48 hours to 2 weeks) for urgent AI safety opportunities where traditional grant cycles are too slow.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-apart-research",
+      "name": "Apart Research",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://apartresearch.com",
+      "funding_portal_url": "https://apartresearch.com/sprints",
+      "discovery_channels": [
+        "https://apartresearch.com",
+        "https://apartresearch.com/fellowship",
+        "https://apartresearch.com/bounties"
+      ],
+      "focus_areas": [
+        "AI Safety Research Sprints & Hackathons",
+        "LLM Red-Teaming & Evaluations",
+        "Mechanistic Interpretability Sprints",
+        "Micro-Grants for Emerging Safety Researchers"
+      ],
+      "applicant_types": [
+        "student",
+        "independent_researcher",
+        "developer",
+        "team"
+      ],
+      "typical_award_type": "bounty_and_microgrant",
+      "cycle_frequency": "monthly",
+      "active_programs_sample": [
+        "Apart AI Safety Research Sprints (K - K prizes/micro-grants)",
+        "Apart Fellowship",
+        "Safety Benchmark Bounties"
+      ],
+      "agent_search_hints": "Fast-cadence weekend and monthly research sprints that award cash prizes and follow-on project funding for actionable safety papers and demos.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-beri",
+      "name": "Berkeley Existential Risk Initiative (BERI)",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://existential-risk.org",
+      "funding_portal_url": "https://existential-risk.org/services",
+      "discovery_channels": [
+        "https://existential-risk.org"
+      ],
+      "focus_areas": [
+        "Academic Lab Operational Support",
+        "Rapid Equipment & Travel Procurement",
+        "AI Safety & Biosecurity Academic Collaboration"
+      ],
+      "applicant_types": [
+        "academic",
+        "lab_director",
+        "postdoc",
+        "graduate_student"
+      ],
+      "typical_award_type": "operational_and_procurement_support",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "University Collaborator Support Agreements",
+        "Rapid Event & Travel Sponsorship"
+      ],
+      "agent_search_hints": "Provides frictionless operations, fast procurement, and travel sponsorship for academic researchers working on existential risk.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-nonlinear",
+      "name": "Nonlinear",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://www.nonlinear.org",
+      "funding_portal_url": "https://www.nonlinear.org/projects",
+      "discovery_channels": [
+        "https://www.nonlinear.org",
+        "https://forum.effectivealtruism.org/users/katerson"
+      ],
+      "focus_areas": [
+        "AI Safety Incubation",
+        "Superlinear Impact Projects",
+        "Rapid Seed Grants & Bounties",
+        "AI Safety Audio & Media"
+      ],
+      "applicant_types": [
+        "individual",
+        "startup_founder",
+        "creative"
+      ],
+      "typical_award_type": "cash_grant",
+      "cycle_frequency": "rolling",
+      "active_programs_sample": [
+        "Nonlinear Fast Grants",
+        "AI Safety Idea Bounties"
+      ],
+      "agent_search_hints": "Seed grants and incubation for ambitious, high-risk AI safety projects and unconventional founders.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-ai-safety-support",
+      "name": "AI Safety Support",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://www.aisafetysupport.org",
+      "funding_portal_url": "https://www.aisafetysupport.org",
+      "discovery_channels": [
+        "https://www.aisafetysupport.org",
+        "https://forum.effectivealtruism.org/topics/ai-safety-support"
+      ],
+      "focus_areas": [
+        "Career Transition Micro-Grants",
+        "Conference Travel & Attendance Stipends",
+        "1-on-1 Mentorship & Coaching"
+      ],
+      "applicant_types": [
+        "individual",
+        "career_transitioner",
+        "student"
+      ],
+      "typical_award_type": "microgrant_and_travel",
+      "cycle_frequency": "continuous",
+      "active_programs_sample": [
+        "Conference Travel Microgrants ( - ,500)",
+        "Study & Upskilling Stipends"
+      ],
+      "agent_search_hints": "Low-barrier micro-grants helping aspiring alignment researchers attend conferences, buy learning materials, or bridge funding gaps.",
+      "hq_region": "GLOBAL",
+      "eligible_regions": [
+        "GLOBAL"
+      ]
+    },
+    {
+      "id": "funder-tarbell-fellowship",
+      "name": "Tarbell Fellowship",
+      "category_id": 3,
+      "category": "Philanthropic & Mission-Driven Funding",
+      "homepage_url": "https://tarbellfellowship.org",
+      "funding_portal_url": "https://tarbellfellowship.org",
+      "discovery_channels": [
+        "https://tarbellfellowship.org",
+        "https://forum.effectivealtruism.org/posts/kQj9h2E6b4i7j6xWk/announcing-the-tarbell-fellowship"
+      ],
+      "focus_areas": [
+        "AI Governance Journalism",
+        "Catastrophic AI Risk Communication",
+        "Investitative Technology Reporting"
+      ],
+      "applicant_types": [
+        "fellow",
+        "journalist",
+        "writer",
+        "early_career"
+      ],
+      "typical_award_type": "fellowship_stipend",
+      "cycle_frequency": "yearly",
+      "active_programs_sample": [
+        "Tarbell Fellowship (K - K stipend + newsroom placement)"
+      ],
+      "agent_search_hints": "1-year paid fellowship for early-career journalists focusing on artificial intelligence governance and catastrophic risk.",
       "hq_region": "GLOBAL",
       "eligible_regions": [
         "GLOBAL"

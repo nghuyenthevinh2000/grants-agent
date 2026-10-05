@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T03:15:24.074788+00:00",
+  "generated_at": "2026-10-05T10:48:03.886459+00:00",
   "total_regions": 10,
-  "total_grants": 5,
-  "total_funders": 163,
+  "total_grants": 10,
+  "total_funders": 173,
   "regions": {
     "east-asia": {
       "region_code": "EAST_ASIA",
@@ -19,8 +19,8 @@
     "global": {
       "region_code": "GLOBAL",
       "region_name": "Global / Worldwide Grants",
-      "grants_count": 2,
-      "funders_count": 36
+      "grants_count": 7,
+      "funders_count": 46
     },
     "latam": {
       "region_code": "LATAM",

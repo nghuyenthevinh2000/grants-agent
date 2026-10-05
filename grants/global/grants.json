@@ -3,7 +3,7 @@
   "name": "Global / Worldwide Grants",
   "description": "Funding programs with no geographic restriction or open to remote/international applicants.",
   "last_updated": "2026-10-05",
-  "total_grants": 2,
+  "total_grants": 7,
   "grants": [
     {
       "id": "grant-sff-spec-202610",
@@ -109,6 +109,280 @@
         "internet-freedom",
         "privacy",
         "rolling"
+      ]
+    },
+    {
+      "id": "grant-bluedot-rapid-events-202610",
+      "name": "BlueDot Impact - Rapid Grants (Events & Community RFE)",
+      "applicant_need": "community_support",
+      "source": {
+        "name": "BlueDot Impact",
+        "url": "https://bluedot.org/grants/rapid",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 300,
+        "max_amount": 10000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "2026-10-08",
+      "eligibility": {
+        "stage": [
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "GLOBAL"
+        ],
+        "restrictions": "Funding restricted to countries not subject to UK/international sanctions.",
+        "eligibility_checks": []
+      },
+      "requirements": {
+        "key_requirements": [
+          "Event agenda and run-of-show",
+          "Target audience outreach plan",
+          "Itemized budget (venue, food, materials, facilitator time)",
+          "AI safety context explanation"
+        ],
+        "focus_areas": [
+          "Catastrophic AI Risk",
+          "AI Alignment",
+          "AI Governance",
+          "Community Education"
+        ]
+      },
+      "recurring": "anytime",
+      "notes": "Priority deadline October 8, 2026, with rolling reviews afterward. Targets 3-5 hour events with 1 talk and structured breakout discussions on catastrophic AI risk.",
+      "tags": [
+        "ai-safety",
+        "rapid-grant",
+        "events",
+        "community",
+        "effective-altruism",
+        "catastrophic-risk"
+      ]
+    },
+    {
+      "id": "grant-ea-ltff-rolling-202610",
+      "name": "Long-Term Future Fund (LTFF) - General Grant Round",
+      "applicant_need": "research_project",
+      "source": {
+        "name": "EA Funds",
+        "url": "https://funds.effectivealtruism.org/funds/long-term-future",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 1000,
+        "max_amount": 150000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "GLOBAL"
+        ],
+        "restrictions": "No formal university or organizational affiliation required; individuals and independent researchers welcome.",
+        "eligibility_checks": []
+      },
+      "requirements": {
+        "key_requirements": [
+          "Detailed research or project proposal",
+          "Budget justification and line items",
+          "Theory of change on existential risk reduction",
+          "Applicant CV and background context"
+        ],
+        "focus_areas": [
+          "Technical AI Alignment",
+          "AI Governance & Strategy",
+          "Biosecurity & Pandemic Preparedness",
+          "Existential Risk"
+        ]
+      },
+      "recurring": "anytime",
+      "notes": "Flagship EA grant fund with continuous rolling applications. Median grant size ~K with turnaround typically in 4-6 weeks.",
+      "tags": [
+        "effective-altruism",
+        "ai-safety",
+        "biosecurity",
+        "independent-research",
+        "longtermism",
+        "fast-process"
+      ]
+    },
+    {
+      "id": "grant-ea-infrastructure-fund-202610",
+      "name": "EA Infrastructure Fund - Movement & Community Grants",
+      "applicant_need": "community_support",
+      "source": {
+        "name": "EA Funds",
+        "url": "https://funds.effectivealtruism.org/funds/ea-infrastructure",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 1000,
+        "max_amount": 75000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "GLOBAL"
+        ],
+        "restrictions": "Open to organizers, university student leaders, and outreach teams globally.",
+        "eligibility_checks": []
+      },
+      "requirements": {
+        "key_requirements": [
+          "Community building or event delivery plan",
+          "Transparent budget breakdown",
+          "Projected participant engagement and conversion metrics"
+        ],
+        "focus_areas": [
+          "Community Building",
+          "University Groups",
+          "Conferences & Retreats",
+          "Outreach & Media"
+        ]
+      },
+      "recurring": "anytime",
+      "notes": "Funds local group stipends, EAGx conferences, student retreats, and infrastructure initiatives expanding high-impact careers.",
+      "tags": [
+        "effective-altruism",
+        "community-building",
+        "events",
+        "local-groups",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "grant-apart-research-sprints-202610",
+      "name": "Apart Research - AI Safety Research Sprints & Bounties",
+      "applicant_need": "competition_prize",
+      "source": {
+        "name": "Apart Research",
+        "url": "https://apartresearch.com/sprints",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 500,
+        "max_amount": 10000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "GLOBAL"
+        ],
+        "restrictions": "Open globally to individual researchers, software engineers, and cross-disciplinary teams.",
+        "eligibility_checks": []
+      },
+      "requirements": {
+        "key_requirements": [
+          "Completed sprint deliverable (paper, empirical benchmark, or demo)",
+          "Open-source code repository with reproducible documentation",
+          "Submission within sprint competition window"
+        ],
+        "focus_areas": [
+          "Mechanistic Interpretability",
+          "Model Evaluations & Evals",
+          "AI Red-Teaming",
+          "Agent Safety"
+        ]
+      },
+      "recurring": "quarterly",
+      "notes": "Fast-paced weekend and monthly research sprints awarding cash prizes and follow-on research fellowship grants.",
+      "tags": [
+        "ai-safety",
+        "hackathon",
+        "sprints",
+        "interpretability",
+        "red-teaming"
+      ]
+    },
+    {
+      "id": "grant-cais-compute-fellowship-202610",
+      "name": "Center for AI Safety (CAIS) - Compute Cluster Allocations",
+      "applicant_need": "compute_access",
+      "source": {
+        "name": "Center for AI Safety",
+        "url": "https://www.safe.ai/compute-cluster",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "gpu",
+        "min_amount": 0,
+        "max_amount": 0,
+        "currency": "USD",
+        "gpu_type": "A100",
+        "gpu_count": 8
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "GLOBAL"
+        ],
+        "restrictions": "Must be actively conducting empirical safety, alignment, or robustness research on foundation models.",
+        "eligibility_checks": []
+      },
+      "requirements": {
+        "key_requirements": [
+          "Technical research statement",
+          "Compute scaling plan and architecture requirements",
+          "Commitment to open-access publication of safety findings"
+        ],
+        "focus_areas": [
+          "Empirical Alignment",
+          "Trojan Detection",
+          "Model Robustness",
+          "Scalable Oversight"
+        ]
+      },
+      "recurring": "anytime",
+      "notes": "Dedicated compute cluster allocated to academic and independent researchers working directly on catastrophic risk reduction.",
+      "tags": [
+        "ai-safety",
+        "compute",
+        "gpu-access",
+        "alignment",
+        "cais"
       ]
     }
   ]
