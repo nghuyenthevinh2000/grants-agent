@@ -32,10 +32,9 @@ This file is the **single source of truth for the grant schema**. Add each grant
     "team_size_max": null,
     "geography": ["GLOBAL", "SEA", "NORTH_AMERICA"],
     "restrictions": "501(c)(3) required, founders only, etc.",
-    "special_requirements": ["first-time", "women-led", "underrepresented", "none", "other - short sentence explanation"]
+    "eligibility_checks": ["first-time", "women-led", "underrepresented", "none", "other - short sentence explanation"]
   },
   "requirements": {
-    "application_effort": "low|medium|high",
     "key_requirements": ["Live demo", "Financial statements", "Product roadmap"],
     "focus_areas": ["AI safety", "Open source", "Foundation model development"]
   },
@@ -55,7 +54,7 @@ This file is the **single source of truth for the grant schema**. Add each grant
 - **award**: Type and amount of funding or resources offered
 - **deadline**: Application deadline as `YYYY-MM-DD`, or `Rolling` / `TBD`
 - **eligibility**: Constraints on who can apply based on company stage, size, location, or other criteria
-- **requirements**: Application effort level and specific deliverables or focus areas required
+- **requirements**: Application documents, submission steps, specific deliverables, and focus areas required after eligibility is confirmed
 - **applicant_need**: What problem/need does this grant solve? When in a career/org lifecycle would someone apply?
   - **Classification heuristic**: Answer "WHEN would I apply to this grant?"
     - `personal_stipend`: Fellowship, personal career funding (e.g., Microsoft Research Fellowship $17K) (possibly also with compute access)
@@ -118,11 +117,10 @@ This file is the **single source of truth for the grant schema**. Add each grant
   - *Modifiers*: `CROSS_BORDER`, `BILATERAL`
 - Regional folders are stored under `grants/<region-slug>/` (`global/`, `sea/`, `north-america/`, etc.).
 - **restrictions**: Specific disqualifying factors or requirements (e.g., "501(c)(3) required")
-- **special_requirements**: List of special criteria such as `first-time`, `women-led`, `underrepresented`, `none`, or descriptive text
+- **eligibility_checks**: List of special criteria such as `first-time`, `women-led`, `underrepresented`, `none`, or descriptive text
 
 ### Requirements Object
 
-- **application_effort**: Complexity of application: `low`, `medium`, or `high`
 - **key_requirements**: Specific deliverables or documents needed (e.g., "Live demo", "Financial statements")
 - **focus_areas**: Stated funding priorities or research areas (e.g., "AI safety", "Open source")
 
@@ -164,10 +162,9 @@ Before adding a new grant, check:
     "team_size_max": null,
     "geography": ["US"],
     "restrictions": "Must be building with OpenAI models",
-    "special_requirements": []
+    "eligibility_checks": []
   },
   "requirements": {
-    "application_effort": "medium",
     "key_requirements": ["Live product", "User traction", "Use of GPT API"],
     "focus_areas": ["AI applications", "Productivity", "Developer tools"]
   },

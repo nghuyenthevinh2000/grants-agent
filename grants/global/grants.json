@@ -35,10 +35,9 @@
           "GLOBAL"
         ],
         "restrictions": "Projects mitigating existential risks or aligning transformative AI",
-        "special_requirements": []
+        "eligibility_checks": []
       },
       "requirements": {
-        "application_effort": "low",
         "key_requirements": [
           "Concise project proposal",
           "Theory of change / impact hypothesis"
@@ -88,10 +87,9 @@
           "GLOBAL"
         ],
         "restrictions": "Open to individuals, nonprofits, and companies globally (excluding sanctioned regions)",
-        "special_requirements": []
+        "eligibility_checks": []
       },
       "requirements": {
-        "application_effort": "medium",
         "key_requirements": [
           "2-stage review: Concept note followed by full proposal",
           "Open source licensing and public deliverables"

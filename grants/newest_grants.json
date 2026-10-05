@@ -31,7 +31,7 @@
           "NORTH_AMERICA"
         ],
         "restrictions": "Eligibility needs verification before document preparation. Previously recorded applicant types: institutions of higher education and US nonprofit research organizations; these have not been confirmed against the current solicitation. NORTH_AMERICA is a discovery region, not evidence that applicants throughout North America qualify.",
-        "special_requirements": [
+        "eligibility_checks": [
           "Screen applicant type/legal entity, eligible country, and any institution-level submission cap against the current official solicitation before proceeding to documents",
           "Unknown: Current occupation/career-stage, age, degree/enrollment, institutional affiliation, and team-size criteria have not been verified; absent criteria must not be treated as an eligibility pass",
           "Unknown: The previously recorded maximum of 4 proposals per institution is unverified and must not be used to approve or reject an applicant",
@@ -40,12 +40,11 @@
         ]
       },
       "requirements": {
-        "application_effort": "high",
         "key_requirements": [
           "Unverified existing requirement: Institutional nomination; confirm required approval documents in the current solicitation after eligibility is verified",
           "Unverified existing requirement: Equipment and instrumentation specifications; confirm required content and attachments in the current solicitation",
           "Unverified existing requirement: Operations and maintenance plan; confirm required content and format in the current solicitation",
-          "Verification pending: The official program page returned HTTP 403 and the attempted NSF 23-519 legacy solicitation URL returned HTTP 404 during this review; document checklists, page limits, submission steps, application effort, and focus areas have not been independently verified"
+          "Verification pending: The official program page returned HTTP 403 and the attempted NSF 23-519 legacy solicitation URL returned HTTP 404 during this review; document checklists, page limits, submission steps, and focus areas have not been independently verified"
         ],
         "focus_areas": [
           "Research instrumentation",
@@ -92,7 +91,7 @@
           "GLOBAL"
         ],
         "restrictions": "Eligible recipients are established charities/nonprofits, projects with an established fiscal sponsor, or incorporated for-profit companies with a company bank account. Independent researchers without an established fiscal sponsor cannot receive an SFF funding recommendation. Nonprofits must be outside countries considered adversarial to the US; for-profits are generally supported in the US, UK, Canada, and Australia, with other countries requiring case-by-case confirmation.",
-        "special_requirements": [
+        "eligibility_checks": [
           "Applicant type/legal status: Nonprofits must already have charity status or be hosted/fiscally sponsored by a charity; independent researchers must have a fiscal sponsorship agreement before submitting",
           "Applicant type/legal status: For-profit companies must already be incorporated and have a company bank account before submitting",
           "Region: Check the recipient entity's country, not just the GLOBAL discovery label; nonprofits in countries considered adversarial to the US are excluded (https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-E/part-791/subpart-A/section-791.4)",
@@ -104,7 +103,6 @@
         ]
       },
       "requirements": {
-        "application_effort": "high",
         "key_requirements": [
           "Submit the complete SFF Funding Rolling Application, including the Speculation Grant Request section; the same form requests expedited funding and consideration in the next S-Process round, so no separate Speculation Grant application is needed",
           "Complete the applicable nonprofit or for-profit long-form application template and provide a PDF copy; submit publicly viewable document links or PDF alternatives where permitted",
@@ -165,7 +163,7 @@
           "GLOBAL"
         ],
         "restrictions": "Individuals must be at least 18 years old; for-profit and nonprofit organizations may also apply. Applicants in countries subject to US trade restrictions or export sanctions cannot be supported. Projects must fit OTF's internet freedom remit; GLOBAL does not override country restrictions.",
-        "special_requirements": [
+        "eligibility_checks": [
           "Applicant type/age: An individual applicant must be 18 or older; for-profit or nonprofit organizations are also eligible applicant types",
           "Region: Check the applicant's country against applicable US trade restrictions and export sanctions using https://ofac.treasury.gov/; nationality, creed, or sex are not exclusions in themselves",
           "Project fit: Support technology development, applied research, digital security ecosystem improvements, or community convenings that advance internet freedom for people facing repressive censorship or surveillance",
@@ -177,7 +175,6 @@
         ]
       },
       "requirements": {
-        "application_effort": "medium",
         "key_requirements": [
           "Stage 1: Submit a Concept Note through https://apply.opentech.fund/internet-freedom-fund-concept-note/ with a project title, a 1-3 sentence summary, problem statement, project category, objectives and activities, and an explanation of how the effort differs from or complements existing projects",
           "Concept Note: Estimate project duration and total funding in USD; identify specific beneficiaries and their locations, explain relevance to people facing repressive censorship or surveillance, describe team expertise and past work, and provide a contact name and valid email",

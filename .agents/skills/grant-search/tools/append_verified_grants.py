@@ -123,8 +123,8 @@ def append_verified_grants(staging_file: str, target_file: str = "found_grants.j
             cleaned["tags"] = []
 
         if isinstance(cleaned.get("eligibility"), dict):
-            if cleaned["eligibility"].get("special_requirements") is None:
-                cleaned["eligibility"]["special_requirements"] = []
+            if cleaned["eligibility"].get("eligibility_checks") is None:
+                cleaned["eligibility"]["eligibility_checks"] = []
 
         if isinstance(cleaned.get("requirements"), dict):
             if cleaned["requirements"].get("key_requirements") is None:

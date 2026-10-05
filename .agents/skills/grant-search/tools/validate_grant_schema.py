@@ -26,7 +26,6 @@ AWARD_TYPES = ["cash", "gpu", "equity-waiver", "other"]
 SOURCE_TYPES = ["website", "email", "recommendation", "partnership"]
 RECURRING_TYPES = ["yearly", "quarterly", "one-time", "anytime", "no", "other"]
 STAGES = ["early-stage", "growth", "all"]
-EFFORT_LEVELS = ["low", "medium", "high"]
 GEOGRAPHY_REGIONS = [
     "GLOBAL", "SEA", "EAST_ASIA", "SOUTH_ASIA", "MENA",
     "NORTH_AMERICA", "EUROPE", "LATAM", "SUB_SAHARAN_AFRICA", "OCEANIA",
@@ -152,7 +151,7 @@ class GrantValidator:
             self.errors.append(f"eligibility must be object, got {type(eligibility).__name__}")
             return
 
-        required = ["stage", "team_size_min", "team_size_max", "geography", "restrictions", "special_requirements"]
+        required = ["stage", "team_size_min", "team_size_max", "geography", "restrictions", "eligibility_checks"]
         for field in required:
             if field not in eligibility:
                 self.errors.append(f"eligibility.{field} is required")
@@ -184,22 +183,19 @@ class GrantValidator:
         if "restrictions" in eligibility and not isinstance(eligibility["restrictions"], str):
             self.errors.append("eligibility.restrictions must be string")
 
-        if "special_requirements" in eligibility:
-            if eligibility["special_requirements"] is not None and not isinstance(eligibility["special_requirements"], list):
-                self.errors.append("eligibility.special_requirements must be array or null")
+        if "eligibility_checks" in eligibility:
+            if eligibility["eligibility_checks"] is not None and not isinstance(eligibility["eligibility_checks"], list):
+                self.errors.append("eligibility.eligibility_checks must be array or null")
 
     def _validate_requirements(self, requirements):
         if not isinstance(requirements, dict):
             self.errors.append(f"requirements must be object, got {type(requirements).__name__}")
             return
 
-        required = ["application_effort", "key_requirements", "focus_areas"]
+        required = ["key_requirements", "focus_areas"]
         for field in required:
             if field not in requirements:
                 self.errors.append(f"requirements.{field} is required")
-
-        if "application_effort" in requirements and requirements["application_effort"] not in EFFORT_LEVELS:
-            self.errors.append(f"requirements.application_effort not in {EFFORT_LEVELS}")
 
         if "key_requirements" in requirements:
             if requirements["key_requirements"] is not None and not isinstance(requirements["key_requirements"], list):

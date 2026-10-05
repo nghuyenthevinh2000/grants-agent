@@ -34,10 +34,9 @@
           "SEA"
         ],
         "restrictions": "Researchers or research groups affiliated with universities or research institutes in Vietnam",
-        "special_requirements": []
+        "eligibility_checks": []
       },
       "requirements": {
-        "application_effort": "high",
         "key_requirements": [
           "Host institution sponsorship",
           "Detailed scientific research proposal and budget",
@@ -90,10 +89,9 @@
           "GLOBAL"
         ],
         "restrictions": "Open to developers and researchers in Vietnam and Southeast Asia contributing to open decentralized protocols",
-        "special_requirements": []
+        "eligibility_checks": []
       },
       "requirements": {
-        "application_effort": "low",
         "key_requirements": [
           "Open source GitHub repo",
           "Demo or technical architecture specification"

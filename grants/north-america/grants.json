@@ -34,10 +34,9 @@
           "NORTH_AMERICA"
         ],
         "restrictions": "Institutions of higher education and US non-profit research organizations",
-        "special_requirements": []
+        "eligibility_checks": []
       },
       "requirements": {
-        "application_effort": "high",
         "key_requirements": [
           "Institutional nomination (max 4 proposals per institution)",
           "Equipment and instrumentation specifications",
