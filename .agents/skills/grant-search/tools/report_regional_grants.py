@@ -71,8 +71,7 @@ def generate_regional_report(grants_dir: Path) -> dict:
             "region_code": region_code,
             "region_name": region_name,
             "grants_count": len(grants_list),
-            "funders_count": len(funders_list),
-            "grant_ids": [g.get("id") for g in grants_list if isinstance(g, dict) and "id" in g]
+            "funders_count": len(funders_list)
         }
 
         report["total_grants"] += len(grants_list)
