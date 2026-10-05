@@ -1,5 +1,10 @@
 # Grants Agent (`grants-agent`)
 
+> 💡 **Quick Guide for Humans**: Copy and paste this to your AI agent:
+> ```text
+> install https://github.com/nghuyenthevinh2000/grants-agent.git
+> ```
+
 > **Curated Grant Intelligence & Search Toolkit for Autonomous AI Agents**  
 > Comprehensive database of 139+ technology, AI safety, scientific research, and Web3/open-source grant programs optimized for programmatic agent retrieval, applicant matching, and verification.
 
