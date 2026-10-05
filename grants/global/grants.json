@@ -3,7 +3,7 @@
   "name": "Global / Worldwide Grants",
   "description": "Funding programs with no geographic restriction or open to remote/international applicants.",
   "last_updated": "2026-10-05",
-  "total_grants": 7,
+  "total_grants": 8,
   "grants": [
     {
       "id": "grant-sff-spec-202610",
@@ -383,6 +383,64 @@
         "gpu-access",
         "alignment",
         "cais"
+      ]
+    },
+    {
+      "id": "grant-thiel-fellowship-2026",
+      "name": "Thiel Fellowship",
+      "applicant_need": "personal_stipend",
+      "source": {
+        "name": "The Thiel Foundation",
+        "url": "https://thielfellowship.org/apply",
+        "discovered_date": "2026-10-05",
+        "source_type": "website"
+      },
+      "award": {
+        "type": "cash",
+        "min_amount": 100000,
+        "max_amount": 100000,
+        "currency": "USD",
+        "gpu_type": null,
+        "gpu_count": null
+      },
+      "deadline": "Rolling",
+      "eligibility": {
+        "stage": [
+          "early-stage",
+          "all"
+        ],
+        "team_size_min": 1,
+        "team_size_max": null,
+        "geography": [
+          "GLOBAL"
+        ],
+        "restrictions": "Applicants must be aged 22 or younger at the time of application and must pause or drop out of college to pursue their project full-time.",
+        "eligibility_checks": []
+      },
+      "requirements": {
+        "key_requirements": [
+          "Online application form via portal",
+          "Demonstrated technical progress, prototype, or published research",
+          "Commitment to leave formal higher education during the 2-year fellowship"
+        ],
+        "focus_areas": [
+          "Deep Tech",
+          "Artificial Intelligence",
+          "Biotechnology",
+          "Computing Infrastructure",
+          "Scientific Research",
+          "Decentralized Systems"
+        ]
+      },
+      "recurring": "anytime",
+      "notes": "Provides ,000 USD non-dilutive grant over two years plus mentorship from the Thiel Foundation network. Open globally to young founders and autodidacts.",
+      "tags": [
+        "fellowship",
+        "personal-stipend",
+        "anti-credentialist",
+        "non-degree",
+        "youth",
+        "deep-tech"
       ]
     }
   ]

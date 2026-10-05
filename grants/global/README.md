@@ -3,7 +3,7 @@
 Funding programs with no geographic restrictions, open to researchers, developers, and organizations globally regardless of legal residence or citizenship.
 
 ## Resources
-- **Grants Database**: [`grants.json`](grants.json) – **7** recorded grants
+- **Grants Database**: [`grants.json`](grants.json) – **8** recorded grants
 - **Funders Directory**: [`funders.json`](funders.json) – **46** curated funders and portals
 
 ## Curated Funders
@@ -39,3 +39,4 @@ Funding programs with no geographic restrictions, open to researchers, developer
 | `grant-cais-compute-fellowship-202610` | **Center for AI Safety (CAIS) - Compute Cluster Allocations** | Center for AI Safety | 8x A100 GPUs | Rolling | `compute_access` |
 | `grant-sff-spec-202610` | **Survival and Flourishing Fund - Speculation Grants** | Survival and Flourishing Fund | $10,000 – $150,000 USD | Rolling | `research_project` |
 | `grant-otf-iff-202610` | **Open Technology Fund - Internet Freedom Fund** | Open Technology Fund | $10,000 – $900,000 USD | Rolling | `community_support` |
+| `grant-thiel-fellowship-2026` | **Thiel Fellowship** | The Thiel Foundation | $100,000 USD ($50K/yr) | Rolling | `personal_stipend` |

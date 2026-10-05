@@ -1091,20 +1091,35 @@
     },
     {
       "id": "funder-grant-finder-thiel-fellowship",
-      "name": "Thiel Fellowship",
+      "name": "The Thiel Foundation (Thiel Fellowship)",
       "category_id": 4,
       "category": "Non-Traditional Funding",
       "homepage_url": "https://thielfellowship.org/",
-      "funding_portal_url": "https://thielfellowship.org/",
+      "funding_portal_url": "https://thielfellowship.org/apply",
       "discovery_channels": [
-        "https://thielfellowship.org/"
+        "https://thielfellowship.org/",
+        "https://thielfellowship.org/apply",
+        "https://thielfellowship.org/faq"
       ],
-      "focus_areas": [],
-      "applicant_types": [],
-      "typical_award_type": "unknown",
-      "cycle_frequency": "unknown",
-      "active_programs_sample": [],
-      "agent_search_hints": "Imported from grant-finder sources.json; web_search. Verify current availability, eligibility, and funding terms.",
+      "focus_areas": [
+        "Artificial Intelligence",
+        "Biotechnology & Longevity",
+        "Computing & Cryptography",
+        "Hardware & Robotics",
+        "Scientific Discovery"
+      ],
+      "applicant_types": [
+        "individual",
+        "autodidact",
+        "student_dropout",
+        "young_founder"
+      ],
+      "typical_award_type": "cash_grant",
+      "cycle_frequency": "continuous",
+      "active_programs_sample": [
+        "Thiel Fellowship (,000 grant over 2 years)"
+      ],
+      "agent_search_hints": "Prestigious 2-year K fellowship for young people aged 22 or younger who skip or drop out of college to build ambitious projects.",
       "hq_region": "GLOBAL",
       "eligible_regions": [
         "GLOBAL"

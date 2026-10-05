@@ -16,7 +16,7 @@ Each regional directory contains two synchronized resources:
 
 | Folder | Region Code | Scope & Tech Hubs | Grants Tracked | Funders & Portals |
 | :--- | :--- | :--- | :--- | :--- |
-| [`global/`](global/README.md) | `GLOBAL` | No geographic barrier; remote-friendly; Web3, AI safety, open-source | [7 grants](global/grants.json) | [46 funders](global/funders.json) |
+| [`global/`](global/README.md) | `GLOBAL` | No geographic barrier; remote-friendly; Web3, AI safety, open-source | [8 grants](global/grants.json) | [46 funders](global/funders.json) |
 | [`sea/`](sea/README.md) | `SEA` | Southeast Asia (Vietnam, Singapore, Indonesia, Thailand, Malaysia...) | [2 grants](sea/grants.json) | [5 funders](sea/funders.json) |
 | [`north-america/`](north-america/README.md) | `NORTH_AMERICA` | United States and Canada (US Federal, NSF, DARPA, NSERC) | [1 grant](north-america/grants.json) | [100 funders](north-america/funders.json) |
 | [`europe/`](europe/README.md) | `EUROPE` | EU member states, United Kingdom, Switzerland, Norway (Horizon, UKRI) | [0 grants](europe/grants.json) | [5 funders](europe/funders.json) |
