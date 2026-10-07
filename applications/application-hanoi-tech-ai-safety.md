@@ -2,137 +2,191 @@
 
 > **Funding Program:** [BlueDot Impact Rapid Grants (Events & Community)](https://bluedot.org/grants/rapid)  
 > **Reference RFP:** [Request for Events: Helping people respond to the current AI safety moment](https://forum.effectivealtruism.org/posts/gvB9jyi8Mk6aHuFPZ/we-re-funding-events-to-help-people-make-sense-of-ai-risk)  
-> **Status:** Ready to Submit  
+> **Submission Form:** [BlueDot Events RFE application](https://airtable.com/appeeZXWP0NdMvWYd/pagSgUapxNRzBRnLu/form)  
+> **Status:** Draft — factual details and program fit need confirmation  
 > **Priority Deadline:** October 8, 2026
 
----
+## AI Safety Problem Statement
 
-## 📋 Application Field Responses
+As people turn to generative AI for making work and health decisions, **misplaced trust can turn an incorrect answer into a consequential mistake.** Fluent, confident responses can obscure uncertainty, making it difficult to distinguish useful assistance from unreliable advice.
 
-### 1. Project Title
+A 2025 study of 319 knowledge workers found that greater confidence in generative AI was associated with less self-reported critical thinking. WHO warns that inaccurate or incomplete AI-generated health information can harm people making health decisions, while automation bias can cause users to overlook errors or improperly delegate difficult choices.
+
+**The safety challenge is not simply whether AI can provide an answer, but whether people can judge when that answer should guide action.** Our proposed event would help participants recognize AI’s limitations, verify consequential claims, and know when to seek qualified human expertise—or avoid relying on AI altogether.
+
+### Evidence and Sources
+
+- [CHI 2025: The Impact of Generative AI on Critical Thinking](https://doi.org/10.1145/3706598.3713778). Survey of 319 knowledge workers, with 936 first-hand examples of workplace generative AI use. The findings describe self-reported associations, not proof that AI causes reduced critical thinking.
+- [WHO: AI ethics and governance guidance for large multi-modal models](https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models), January 18, 2024. Identifies risks from inaccurate health information and automation bias; it does not quantify the frequency of resulting harm.
+- [antoan.ai](https://antoan.ai/) and [community background](https://antoan.ai/about-us). The existing Vietnamese AI safety community provides learning resources and a Discord discussion space. Its stated mission includes supporting scholars, students, and professionals in engaging with AI safety through translation, reading groups/hackathons, and research; these are mission statements, not evidence of specific completed events.
+
+### 1. Your name
+*(Required.)*
 ```text
-Events RFE: Hanoi AI Engineers & Tech Community
+Vinh The Nguyen
 ```
 
-### 2. Category
+### 2. Your email
+*(Required. Must match the email used for course communications and the Course Hub. Transcribed from the screenshot.)*
+```text
+nguyenthevinh@gmail.com
+```
+
+### 3. Where are you based?
+*(Required.)*
+```text
+Viet Nam
+```
+
+### 4. Where can we learn more about you?
+*(Required. LinkedIn or personal website preferred.)*
+```text
+Community background: https://antoan.ai/
+Event organizer profile: https://www.linkedin.com/in/vinh-nguyen-047b97183
+```
+
+### 5. Grant type
+*(Required. Selected in the screenshot.)*
 ```text
 Events & community
 ```
 
-### 3. Grant Amount Requested
+### 6. Give your event a short title
+*(Required. City or group plus a few words.)*
 ```text
-$1,850 USD
+Events RFE: Hanoi - How to hedge against AI decision risks?
 ```
 
-### 4. Who do you want to reach and how will you invite them?
+### 7. When is the event?
+*(Required. October 23, 2026, as specified by the organizer.)*
 ```text
-Target Audience:
-We are targeting 45–50 technical practitioners in Hanoi, Vietnam, specifically:
-- Applied AI/ML engineers and deep learning practitioners working at local tech companies and AI startups.
-- Computer science, mathematics, and data science researchers and senior undergraduates/graduates from top Hanoi technical universities (Hanoi University of Science and Technology - HUST, VNU University of Engineering and Technology - UET, VinUniversity).
-- Software developers who actively build with frontier LLMs and are asking urgent questions about model autonomy, safety vulnerabilities, and recent frontier lab dynamics.
-
-Outreach Strategy:
-1. Targeted Direct Outreach: Personalized invitations sent to leads of local tech communities (e.g., Vietnam Machine Learning Community, PyData Hanoi, GDG Hanoi, and university AI clubs).
-2. Existing Network & Alumni: Tapping into local alumni of AI research programs, Effective Altruism Vietnam / Hanoi chapters, and independent research groups.
-3. Curated Application/RSVP via Luma: We will use a curated Luma registration page asking applicants 2 short questions: (a) their technical background, and (b) what specific AI risk questions they want answered. This ensures high-context participants and balanced small-group discussions.
-4. BlueDot Community Cross-Promotion: We will coordinate with BlueDot Impact to invite local BlueDot course participants and alumni living in or around Hanoi.
+2026-10-18
 ```
 
-### 5. Proposed Date, Location, and Agenda
+### 8. Where will it happen?
+*(Required. City, and venue if you have one.)*
 ```text
-Proposed Date & Time:
-Saturday, October 24, 2026 | 13:30 – 17:45 (4 hours 15 minutes)
-(Note: October 24 falls on the weekend immediately adjacent to BlueDot's October 23 preference, maximizing in-person attendance for working engineers who cannot attend full-afternoon weekday events).
-
-Location:
-A modern co-working / tech event hub in Cau Giay / Ba Dinh district, Hanoi (e.g., Toong Coworking Space, UP Coworking Space, or a university seminar hall equipped with high-speed AV and breakout areas).
-
-Event Agenda:
-- 13:30 - 14:00 (30 mins): Registration, Welcome Coffee, and Networking Icebreaker.
-- 14:00 - 14:15 (15 mins): Opening Remarks — Context of the Event & The Evolving AI Landscape.
-- 14:15 - 15:15 (60 mins): Keynote Talk & Deep-Dive Presentation:
-  * Title: "Making Sense of the AI Safety Moment: Frontier Lab Departures, Catastrophic Risk Vectors, and Technical Open Problems."
-  * Core Topics Covered:
-    1. What actually happened? Analyzing the Hugging Face security/supply-chain incident, Jacob Coxon's departure from Anthropic, and recent insider warnings.
-    2. Frontier capability jumps: Agentic autonomy, cyber-offense, biological risk capabilities, and loss of control.
-    3. What does catastrophic risk mean technically? Alignment failure, deceptive alignment, reward hacking, and mechanistic interpretability.
-    4. Why traditional cybersecurity and standard RLHF are insufficient at frontier scale.
-- 15:15 - 15:35 (20 mins): Moderated Q&A with Keynote Speaker.
-- 15:35 - 15:55 (20 mins): Refreshment & Coffee Break (informal discussions).
-- 15:55 - 17:00 (65 mins): Facilitated Small-Group Breakout Sessions (6-8 participants per table):
-  * Track A: Technical Alignment & Safety Research — Where can software engineers and ML practitioners contribute (evals, interpretability, red-teaming)?
-  * Track B: Organizational & Systemic Risks — Whistleblowing, safety governance, compute tracking, and lab commitments.
-  * Track C: What Can We Do in Vietnam/SEA? — Career transitions, local AI safety study groups, and international research collaborations.
-- 17:00 - 17:30 (30 mins): Plenary Debrief & Concrete Next Steps:
-  * Presenting the BlueDot Impact AI Safety Fundamentals course and opening signups.
-  * Launching the Hanoi AI Safety Technical Reading Group.
-- 17:30 - 17:45 (15 mins): Wrap-up, Feedback Survey, and Final Networking.
+Hanoi, Vietnam, at a free coworking space. We will provide the name and address before submission.
 ```
 
-### 6. What do you hope participants will understand or do differently?
+### 9. How many people do you expect?
+*(Required)*
 ```text
-Participants will leave with:
-1. High-Resolution Mental Model of Catastrophic Risk: Move beyond generic "AI ethics" or "job automation" talk to understand frontier catastrophic risks (loss of control, misuse in critical infrastructure, misalignment, and autonomous replication).
-2. Grounded Understanding of Recent Lab Events: Understand the technical and governance significance of the Hugging Face incident and recent lab departures without sensationalism or hype.
-3. Clear Technical Pathways: Understand that technical AI safety is an open, urgent scientific discipline where software engineering, empirical evaluation, and mathematical analysis are desperately needed.
-4. Immediate Action Commitment: Every participant will be prompted to take at least one concrete step:
-   - Apply to the upcoming BlueDot Impact AI Safety Fundamentals course cohort.
-   - Join the newly launched bi-weekly Hanoi AI Safety Reading Group.
-   - Propose an empirical evaluation or red-teaming project using open-source models.
+30
 ```
 
-### 7. Next Steps & Follow-Up Plan
+### 10. Link to a draft agenda
+*(Required. A short Google Doc agenda is acceptable; an event page can also be included.)*
 ```text
-1. Immediate Post-Event Follow-Up (Within 48 hours):
-   - Send all attendees the slide deck, curated reading list (e.g., Anthropic RSP, 80,000 Hours AI guide, BlueDot syllabus), and recorded keynote audio/summary.
-   - Direct link to BlueDot Impact course application portal with guidance for Hanoi applicants.
-2. Launching the Hanoi AI Safety Reading Group:
-   - Host the kickoff session 2 weeks post-event (first week of November 2026), focusing on introductory papers (e.g., Hendrycks' "Overview of Catastrophic AI Risks", Mechanistic Interpretability primers).
-3. Local Study Cohort for BlueDot:
-   - Group participants who apply to BlueDot's next cohort into a local study group to meet weekly for discussion sessions, ensuring high completion rates.
-4. 60-Day Impact Reporting:
-   - Document how many attendees applied to BlueDot courses, joined the reading group, or began safety research projects, and submit a completion report to BlueDot within 60 days.
 ```
 
-### 8. Budget Breakdown (Estimated Costs)
+### 11. How are you connected to the BlueDot community?
+*(Required. Available checkboxes: Course participant; Course alum; Facilitator; AI safety community member; Other.)*
 ```text
-Total Requested: $1,850 USD
-
-Itemized Budget:
-1. Venue Rental (5 hours): $550 USD
-   - Professional seminar space with reliable projector, multi-microphone setup, breakout tables, and high-speed Wi-Fi in central Hanoi.
-2. Catering & Refreshments: $450 USD
-   - Coffee, tea, water, fresh fruit, and light savory/sweet refreshments for 50 attendees ($9/person).
-3. Printed Materials & Discussion Kits: $120 USD
-   - Printed discussion prompt guides, reading lists, AI safety roadmap cheat-sheets, badges, and feedback forms.
-4. Keynote Speaker / Domain Expert Honorarium & Local Transport: $250 USD
-   - Honorarium for an experienced technical speaker / researcher with deep AI safety context.
-5. Audio-Visual Recording & Setup: $180 USD
-   - High-quality audio recording and slide capture for post-event distribution and remote participants.
-6. Organizer / Facilitator Time (Scoped): $300 USD
-   - 15 hours of event preparation, speaker coordination, breakout facilitator briefing, attendee screening, and post-event follow-up ($20/hour for 2 co-organizers).
-
-Total Budget: $1,850 USD
+Other
 ```
 
-### 9. Relevant AI Safety Context of Organizers
+### 12. How much funding are you requesting?
+*(Required. USD, to the nearest $50.)*
+*Estimated costs total $735; rounded funding request is $750, with a $15 catering/printing contingency.*
 ```text
-The organizers have active immersion in the AI safety, technical computing, and effective altruism research ecosystems:
-- Strong familiarity with core AI safety literature (catastrophic risk taxonomies, alignment problem, mechanistic interpretability, frontier lab safety policies, and Responsible Scaling Policies).
-- Deep connections to the Hanoi technology, data science, and university engineering ecosystems, with demonstrated experience organizing technical workshops and meetups.
-- Close tracking of recent AI frontier developments, including lab governance departures, AI safety open problems, and evaluation frameworks.
-- Commitment to building a sustained technical AI safety talent pipeline in Southeast Asia, connecting local STEM talent to international safety institutions and BlueDot Impact courses.
 ```
 
-### 10. Work Link / Draft Agenda Link
+### 13. Who do you want to reach, and how will you invite them?
+*(Required. Describe the community and your connection to it.)*
 ```text
-https://docs.google.com/document/d/your-event-agenda-link
-(Organizers will create a view-only Google Doc using the detailed agenda above and paste the URL here).
+We will invite 30 people: working professionals from Hanoi tech communities and students from university clubs. We will contact them directly and post on antoan.ai's Discord, where we already discuss AI safety. Registration will ask about their backgrounds and AI safety questions. We would appreciate BlueDot's help reaching local participants and alumni.
 ```
 
-### 11. Connection to BlueDot Impact
+### 14. What do you hope participants will understand or do differently afterwards?
+*(Required. The form requires a catastrophic-AI-risk focus and asks for intended changes and follow-up.)*
 ```text
-Select: Other (or BlueDot Alumnus / Course Participant if applicable)
-Explanation: "Active participant in the AI safety and tech research ecosystem in Southeast Asia, following BlueDot Impact's curriculum and research materials. We are organizing this gathering specifically to respond to the RFE, introduce local Vietnamese technical talent to BlueDot courses, and establish an active in-person AI safety study community in Hanoi."
+We want participants to recognize when AI lacks the context needed for a decision and when verification or human judgment is necessary. They should also understand how failures of oversight could contribute to catastrophic risk as AI becomes more capable and autonomous.
+
+They should leave with a proposed safeguard for an existing workflow or system, a next step, and a way to test it. We will meet again within two weeks to ask what they have tested or adopted.
 ```
+
+### 15. What's the plan for the event?
+*(Required. Include the talk, possible speaker, discussion format, and confirmed arrangements.)*
+```text
+We will hold a talk, Q&A, and two in-person discussion rounds on October 18, 2026, 14:00–18:00 Hanoi time. Two organizers will lead 3–4 small groups.
+
+14:00–14:15: Registration and refreshments.
+14:15–14:30: Introduction to AI decision risks.
+14:30–15:30: Talk on catastrophic AI risk, dangerous misuse, loss of control, and the limits of oversight.
+15:30–15:50: Q&A.
+15:50–16:10: Refreshment break.
+16:10–16:40: Discussion 1: AI risks seen in work or study, and whether similar failures could become catastrophic at scale. Separate evidence from speculation.
+16:40–17:15: Discussion 2: safeguards for existing workflows, with a proposed test and next step.
+17:15–17:45: Group reports, an introduction to BlueDot courses, and plans for following up on proposed safeguards.
+17:45–18:00: Feedback survey and wrap-up.
+
+The coworking space is free. We still need to confirm its name and address, the organizer names, and the speaker.
+```
+
+### 16. Why are you the right person to run this?
+*(Required. Include AI safety context and event or community-organizing experience.)*
+```text
+We already discuss AI's impacts and safety through antoan.ai, a Vietnamese community for scholars, students, and professionals. Members can learn about catastrophic risk, loss of human agency, and dangerous misuse of AI through its Discord and Vietnamese-language resources.
+
+From 2022 to 2024, I ran a blockchain community in Vietnam with over 2,500 engineers and 10 Vietnamese blockchain enterprise members. We trained more than 20 core protocol engineers who went on to work at leading blockchain companies in Vietnam and internationally. We also hosted approximately 20 technical meetups and workshops, and one hackathon.
+```
+
+### 17. What specifically would this grant fund?
+*(Required. Revised $750 allocation approved by the organizer; catering and printing remain estimates, not supplier quotes.)*
+```text
+We are requesting $750 USD for an event with 30 participants, two organizers, and a speaker.
+
+1. Venue: $0. The coworking space is free.
+2. Catering and refreshments: $165. Light food, coffee/tea, and water at $5 per person for up to 30 participants, two organizers, and one speaker (33 people total).
+3. Printed materials: $50. Discussion prompts, reading/resource sheets, name badges, and feedback forms.
+4. Two organizers: $400 total. Each receives $200 for 10 hours at $20/hour (20 person-hours total), covering preparation, outreach, running the event and discussions, and follow-up.
+5. Speaker fee: $120 for preparing and giving the AI safety talk and answering questions.
+
+Estimated costs are $735 USD, rounded to $750 USD.
+```
+
+### 18. What would you do without this grant?
+*(Required. Explain whether you would abandon, reduce, delay, use free alternatives, or self-fund, and the impact.)*
+```text
+We would keep sharing Vietnamese-language AI safety resources and hosting Discord discussions for scholars, students, and professionals through antoan.ai. We also aim to support translation projects, reading groups, hackathons, and research.
+
+For this event, we would need other funding for catering, printing, organizer time, and the speaker fee.
+```
+
+### 19. How could we make this process better, or otherwise help you succeed with your project? Also add any other information you feel we should consider here.
+*(Optional. Suggested request, not a claim of existing support.)*
+```text
+We would appreciate an introduction to a technical AI safety speaker and help inviting BlueDot participants or alumni in Viet Nam.
+```
+
+### 20. If we approve your grant, can we share details about it publicly?
+*(Required. Selection visible in the supplied screenshot; confirm it reflects your preference.)*
+```text
+Can share publicly with my name
+```
+
+### 21. Public URL
+*(Optional. One URL to link on BlueDot's website.)*
+```text
+https://antoan.ai/
+```
+
+### 22. Can we share your application with other funders and organizations as relevant?
+*(Required. Selection visible in the supplied screenshot; confirm it reflects your preference.)*
+```text
+Yes
+```
+
+## Prefilled Program
+
+The screenshot shows **Events RFE**, code **RFE-EVENTS**, type **RFP**. This is program metadata, not an additional narrative question.
+
+## Before Submission
+
+- Confirm that catastrophic AI risk is genuinely the event's central focus; the work/health sources do not establish catastrophic risk.
+- Complete the blank required fields: draft-agenda URL and BlueDot connection.
+- Confirm the coworking venue name/address and booking status, $750 allocation, speaker, team names, and follow-up commitments. Attendance is planned at 20–30 participants, on October 18, 2026, 14:00–18:00.
+- Confirm your actual BlueDot connection, personal role in antoan.ai, and organizing experience. The website supports community background but not personal credentials or specific completed events.
+- Provide a real, accessible draft-agenda URL and personal profile URL.
+- Confirm both sharing preferences; screenshot selections have been transcribed, not newly authorized.
